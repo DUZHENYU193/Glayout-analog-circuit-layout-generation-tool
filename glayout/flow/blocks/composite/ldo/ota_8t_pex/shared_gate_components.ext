@@ -1,0 +1,544 @@
+timestamp 1572014192
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use c_route_feafbf71 c_route_feafbf71_0 1 0 0 0 1 0
+use via_stack_c894a9a7 via_stack_c894a9a7_0 1 0 -759 0 1 -4550
+use via_stack_5c4b7883 via_stack_5c4b7883_0 1 0 -465 0 1 -1390
+use L_route_aaaa4b9a L_route_aaaa4b9a_0 1 0 0 0 1 0
+use straight_route_97afe264 straight_route_97afe264_0 1 0 0 0 1 0
+use route_quad_128533b8 route_quad_128533b8_0 1 0 0 0 1 0
+use straight_route_79041f12 straight_route_79041f12_0 1 0 0 0 1 0
+use multiplier_22e959f4 multiplier_22e959f4_1 1 0 -368 0 1 -44
+use multiplier_a07f7352 multiplier_a07f7352_0 1 0 -930 0 1 -44
+use straight_route_ce1305f3 straight_route_ce1305f3_0 1 0 0 0 1 0
+use straight_route_ebdb395f straight_route_ebdb395f_0 1 0 0 0 1 0
+use Unnamed_e01d88d0 Unnamed_e01d88d0_0 1 0 880 0 1 -1687
+use straight_route_268614ec straight_route_268614ec_0 1 0 0 0 1 0
+use straight_route_283b9338 straight_route_283b9338_0 1 0 0 0 1 0
+use multiplier_5999f575 multiplier_5999f575_0 1 0 930 0 1 -44
+use multiplier_22e959f4 multiplier_22e959f4_0 1 0 368 0 1 -44
+use 2_multiplier_shared_gate_comps 2_multiplier_shared_gate_comps_0 1 0 0 0 1 -3078
+use c_route_74ab7015 c_route_74ab7015_0 1 0 0 0 1 0
+use L_route_504ff9c7 L_route_504ff9c7_0 1 0 0 0 1 0
+use route_quad_750bfa83 route_quad_750bfa83_0 1 0 0 0 1 0
+use via_stack_daa6e7a5 via_stack_daa6e7a5_0 1 0 0 0 1 1280
+use L_route_53888900 L_route_53888900_0 1 0 0 0 1 0
+use c_route_5a15a20f c_route_5a15a20f_0 1 0 0 0 1 0
+use c_route_2d13376d c_route_2d13376d_0 1 0 0 0 1 0
+use route_quad_2ab3f407 route_quad_2ab3f407_0 1 0 0 0 1 0
+use 2_multiplier_shared_gate_comps 2_multiplier_shared_gate_comps_1 1 0 0 0 1 3078
+use route_quad_0f0ba6f5 route_quad_0f0ba6f5_0 1 0 0 0 1 0
+use c_route_db19c842 c_route_db19c842_0 1 0 0 0 1 0
+use c_route_297e2d02 c_route_297e2d02_0 1 0 0 0 1 0
+use c_route_90a1c5ed c_route_90a1c5ed_0 1 0 0 0 1 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_n570_n1050#" "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 0.232159
+cap "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/w_n1299_n1525#" "c_route_db19c842_0/m1_n3933_n4344#" 10.7577
+cap "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_n570_n1050#" "c_route_db19c842_0/m1_n3933_n4344#" 331.492
+cap "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "c_route_db19c842_0/m1_n3933_n4344#" 7.40525
+cap "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_n570_n1050#" "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/w_n1299_n1525#" 0.420416
+cap "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_n695_n1050#" -0.545874
+cap "c_route_db19c842_0/m1_n3933_n4344#" "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/w_n1299_n1525#" 92.1432
+cap "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "c_route_db19c842_0/m1_n3933_n4344#" 176.024
+cap "c_route_90a1c5ed_0/m1_n609_n4608#" "c_route_db19c842_0/m1_n3933_n4344#" 286.707
+cap "c_route_90a1c5ed_0/m1_n609_n4608#" "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/w_n1299_n1525#" 104.13
+cap "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "c_route_90a1c5ed_0/m1_n609_n4608#" 363.172
+cap "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_n695_n1050#" "c_route_db19c842_0/m1_n3933_n4344#" 20.1306
+cap "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_n695_n1050#" "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/w_n1299_n1525#" -3.38771
+cap "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "c_route_90a1c5ed_0/m1_n609_n4608#" 1.5302
+cap "c_route_90a1c5ed_0/m1_n609_n4608#" "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/w_n1299_n1525#" 175.652
+cap "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_n600_n1246#" "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" -28.3975
+cap "c_route_90a1c5ed_0/m1_n609_n4608#" "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_n600_n1246#" 345.103
+cap "c_route_90a1c5ed_0/m1_n609_n4608#" "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 468.673
+cap "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/w_n1299_n1525#" "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_n600_n1246#" -25.562
+cap "c_route_90a1c5ed_0/m1_n609_n4608#" "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/w_n1299_n1525#" 3.26639
+cap "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_n695_n1050#" "c_route_90a1c5ed_0/m1_n609_n4608#" 5.14369
+cap "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "c_route_90a1c5ed_0/m1_n609_n4608#" 272.536
+cap "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "c_route_297e2d02_0/m1_2159_n4324#" -16.5781
+cap "c_route_90a1c5ed_0/m1_n609_n4608#" "c_route_297e2d02_0/m1_2159_n4324#" 284.454
+cap "c_route_90a1c5ed_0/m1_n609_n4608#" "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/w_n1299_n1525#" 78.1245
+cap "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/w_n1299_n1525#" "c_route_297e2d02_0/m1_2159_n4324#" -14.9533
+cap "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "c_route_297e2d02_0/m1_2159_n4324#" 72.2486
+cap "c_route_297e2d02_0/m1_2159_n4324#" "c_route_90a1c5ed_0/m1_n609_n4608#" 289.187
+cap "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/w_n1299_n1525#" "c_route_90a1c5ed_0/m1_n609_n4608#" 114.49
+cap "c_route_297e2d02_0/m1_2159_n4324#" "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/w_n1299_n1525#" 46.0131
+cap "c_route_297e2d02_0/m1_2159_n4324#" "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n570_n1050#" -1.02318e-12
+cap "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "c_route_90a1c5ed_0/m1_n609_n4608#" 392.734
+cap "c_route_297e2d02_0/m1_2159_n4324#" "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 104.21
+cap "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/w_n1299_n1525#" "c_route_90a1c5ed_0/m1_n609_n4608#" 18.2627
+cap "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/w_n1299_n1525#" "c_route_297e2d02_0/m1_2159_n4324#" 48.3709
+cap "c_route_90a1c5ed_0/m1_n609_n4608#" "c_route_297e2d02_0/m1_2159_n4324#" 336.084
+cap "c_route_90a1c5ed_0/m1_n609_n4608#" "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 68.5384
+cap "c_route_297e2d02_0/m1_2159_n4324#" "c_route_90a1c5ed_0/m1_n609_n4608#" 66.0497
+cap "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "c_route_90a1c5ed_0/m1_n609_n4608#" 0.232159
+cap "c_route_90a1c5ed_0/m1_n609_n4608#" "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/w_n1299_n1525#" 0.420416
+cap "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/w_n1299_n1525#" "c_route_db19c842_0/m1_n3933_n4344#" 15.7242
+cap "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "c_route_db19c842_0/m1_n3933_n4344#" 10.1257
+cap "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_n570_n1050#" "c_route_db19c842_0/m1_n3933_n4344#" 176.768
+cap "c_route_90a1c5ed_0/m1_n609_n4608#" "c_route_74ab7015_0/m1_n480_n1491#" 0.203822
+cap "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "c_route_db19c842_0/m1_n3933_n4344#" 1.40821
+cap "L_route_504ff9c7_0/m1_n4114_n1687#" "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 0.0791539
+cap "L_route_504ff9c7_0/m1_n4114_n1687#" "c_route_db19c842_0/m1_n3933_n4344#" 0.395769
+cap "c_route_90a1c5ed_0/m1_n609_n4608#" "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 4.30211
+cap "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "multiplier_22e959f4_1/w_n246_n1086#" 0.0273583
+cap "multiplier_a07f7352_0/w_n594_n1086#" "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_n600_n1246#" 0.0273583
+cap "c_route_74ab7015_0/m1_n480_n1491#" "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_n570_n1050#" 1.21541
+cap "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/w_n1299_n1525#" "c_route_74ab7015_0/m1_n480_n1491#" 4.19051
+cap "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_n600_n1246#" "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 0.656211
+cap "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n570_n1050#" "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 0.0791539
+cap "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n570_n1050#" "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_n600_n1246#" 0.324531
+cap "c_route_74ab7015_0/m1_n480_n1491#" "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 0.629781
+cap "multiplier_22e959f4_0/a_n210_n1246#" "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 0.0412776
+cap "multiplier_22e959f4_0/a_n210_n1246#" "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_n600_n1246#" 0.784357
+cap "c_route_74ab7015_0/m1_n480_n1491#" "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 92.6405
+cap "c_route_74ab7015_0/m1_n480_n1491#" "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_n600_n1246#" 0.6725
+cap "c_route_74ab7015_0/m1_n480_n1491#" "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n695_n1050#" 1.84574
+cap "c_route_74ab7015_0/m1_n480_n1491#" "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/w_n1299_n1525#" 75.1012
+cap "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "multiplier_22e959f4_0/a_n210_n1246#" 0.0412776
+cap "multiplier_22e959f4_0/w_144_n1086#" "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 0.0273583
+cap "c_route_297e2d02_0/m1_2159_n4324#" "c_route_74ab7015_0/m1_n480_n1491#" 0.263766
+cap "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n570_n1050#" "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 0.0791539
+cap "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/w_n1299_n1525#" "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n695_n1050#" -2.84217e-14
+cap "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n695_n1050#" -0.00902117
+cap "c_route_74ab7015_0/m1_n480_n1491#" "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 0.155742
+cap "c_route_297e2d02_0/m1_2159_n4324#" "multiplier_22e959f4_0/a_n210_n1246#" 0.70593
+cap "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n570_n1050#" "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n695_n1050#" 0.489867
+cap "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n695_n1050#" "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/w_n1299_n1525#" -0.647956
+cap "c_route_297e2d02_0/m1_2159_n4324#" "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 0.0170559
+cap "c_route_74ab7015_0/m1_n480_n1491#" "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n695_n1050#" 1.61095
+cap "c_route_297e2d02_0/m1_2159_n4324#" "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n570_n1050#" 0.454515
+cap "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "c_route_74ab7015_0/m1_n480_n1491#" 0.119894
+cap "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n570_n1050#" "c_route_297e2d02_0/m1_2159_n4324#" 3.77966
+cap "c_route_74ab7015_0/m1_n480_n1491#" "c_route_297e2d02_0/m1_2159_n4324#" 0.827267
+cap "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/w_n1299_n1525#" "c_route_297e2d02_0/m1_2159_n4324#" 40.3192
+cap "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "c_route_297e2d02_0/m1_2159_n4324#" 60.5418
+cap "multiplier_5999f575_0/w_492_n1086#" "c_route_297e2d02_0/m1_2159_n4324#" 0.0273583
+cap "c_route_90a1c5ed_0/m1_n609_n4608#" "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 1.25655
+cap "c_route_297e2d02_0/m1_2159_n4324#" "c_route_74ab7015_0/m1_n480_n1491#" 2.00424
+cap "c_route_297e2d02_0/m1_2159_n4324#" "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 89.3434
+cap "c_route_297e2d02_0/m1_2159_n4324#" "c_route_90a1c5ed_0/m1_n609_n4608#" 89.2403
+cap "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/w_n1299_n1525#" "c_route_297e2d02_0/m1_2159_n4324#" 49.6315
+cap "c_route_297e2d02_0/m1_2159_n4324#" "c_route_90a1c5ed_0/m1_n609_n4608#" 88.5029
+cap "straight_route_97afe264_0/m1_n3933_n1310#" "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 0.337226
+cap "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_n570_n1050#" "straight_route_97afe264_0/m1_n3933_n1310#" 138.739
+cap "straight_route_97afe264_0/m1_n3933_n1310#" "c_route_5a15a20f_0/m1_n4099_1035#" 677.215
+cap "straight_route_97afe264_0/m1_n3933_n1310#" "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/w_n1299_n1525#" 1.94059
+cap "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_n570_n1050#" "c_route_5a15a20f_0/m1_n4099_1035#" 504.808
+cap "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_n570_n1050#" "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_n1043_n1050#" 8.59629
+cap "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/w_n1299_n1525#" "route_quad_0f0ba6f5_0/m1_n1219_1035#" 63.8196
+cap "route_quad_0f0ba6f5_0/m1_n1219_1035#" "c_route_74ab7015_0/m1_n480_n1491#" -3.55271e-15
+cap "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/w_n1299_n1525#" "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_n570_n1050#" 86.3223
+cap "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_n570_n1050#" "c_route_74ab7015_0/m1_n480_n1491#" 2.05932
+cap "multiplier_a07f7352_0/a_n210_n1246#" "route_quad_0f0ba6f5_0/m1_n1219_1035#" 193.085
+cap "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_n570_n1050#" "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_n1043_n1050#" 8.59629
+cap "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_n1043_n1050#" "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_n570_n1050#" 4.14221
+cap "multiplier_a07f7352_0/a_n210_n1246#" "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/w_n1299_n1525#" 5.15416
+cap "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_n570_n1050#" "route_quad_0f0ba6f5_0/m1_n1219_1035#" 687.336
+cap "c_route_74ab7015_0/m1_n480_n1491#" "multiplier_22e959f4_1/a_n180_n1050#" 0.281621
+cap "c_route_74ab7015_0/m1_n480_n1491#" "multiplier_22e959f4_0/a_n210_n1246#" 149.028
+cap "route_quad_0f0ba6f5_0/m1_n1219_1035#" "multiplier_22e959f4_0/a_n210_n1246#" 210.151
+cap "route_quad_0f0ba6f5_0/m1_n1219_1035#" "multiplier_22e959f4_1/w_144_n1086#" 0.0599382
+cap "route_quad_0f0ba6f5_0/m1_n1219_1035#" "multiplier_a07f7352_0/w_14_n1086#" 0.0657744
+cap "route_quad_0f0ba6f5_0/m1_n1219_1035#" "c_route_74ab7015_0/m1_n480_n1491#" 46.2017
+cap "route_quad_0f0ba6f5_0/m1_n1219_1035#" "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_n600_n1246#" 0.28125
+cap "route_quad_0f0ba6f5_0/m1_n1219_1035#" "multiplier_a07f7352_0/a_n180_n1050#" 2.13907
+cap "multiplier_22e959f4_0/a_n210_n1246#" "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/w_n1299_n1525#" 48.0915
+cap "route_quad_0f0ba6f5_0/m1_n1219_1035#" "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/w_n1299_n1525#" 28.3627
+cap "c_route_74ab7015_0/m1_n480_n1491#" "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/w_n1299_n1525#" 65.4802
+cap "multiplier_a07f7352_0/a_n180_n1050#" "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/w_n1299_n1525#" 0.208438
+cap "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_n600_n1246#" "multiplier_22e959f4_0/a_n210_n1246#" 0.348837
+cap "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n695_n1050#" "c_route_74ab7015_0/m1_n480_n1491#" 0.315294
+cap "route_quad_0f0ba6f5_0/m1_n1219_1035#" "multiplier_22e959f4_0/w_n246_n1086#" 0.0368128
+cap "multiplier_a07f7352_0/w_n594_n1086#" "multiplier_22e959f4_0/a_n210_n1246#" 0.37595
+cap "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n570_n1050#" "multiplier_22e959f4_1/a_n180_n1050#" 0.0498297
+cap "multiplier_22e959f4_1/w_n246_n1086#" "multiplier_22e959f4_0/a_n210_n1246#" 1.28986
+cap "multiplier_22e959f4_1/w_n246_n1086#" "c_route_74ab7015_0/m1_n480_n1491#" 0.149646
+cap "route_quad_0f0ba6f5_0/m1_n1219_1035#" "multiplier_22e959f4_1/w_n116_n1086#" 0.160609
+cap "route_quad_0f0ba6f5_0/m1_n1219_1035#" "multiplier_22e959f4_1/w_n246_n1086#" 0.403044
+cap "c_route_74ab7015_0/m1_n480_n1491#" "multiplier_22e959f4_1/w_n116_n1086#" 0.23313
+cap "multiplier_a07f7352_0/w_n246_n1086#" "multiplier_22e959f4_0/a_n210_n1246#" 0.398065
+cap "c_route_74ab7015_0/m1_n480_n1491#" "multiplier_22e959f4_1/a_n180_n1050#" 6.10003
+cap "route_quad_0f0ba6f5_0/m1_n1219_1035#" "multiplier_22e959f4_1/a_n180_n1050#" 2.13907
+cap "route_quad_0f0ba6f5_0/m1_n1219_1035#" "multiplier_22e959f4_1/w_14_n1086#" 0.12477
+cap "multiplier_a07f7352_0/w_n246_n1086#" "route_quad_0f0ba6f5_0/m1_n1219_1035#" 0.278574
+cap "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n570_n1050#" "multiplier_a07f7352_0/a_n180_n1050#" 0.0498297
+cap "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_n570_n1050#" "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n570_n1050#" 299.804
+cap "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/w_n1299_n1525#" "multiplier_22e959f4_1/a_n180_n1050#" 0.208438
+cap "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "c_route_74ab7015_0/m1_n480_n1491#" 1.1835
+cap "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_n600_n1246#" "multiplier_22e959f4_0/a_n210_n1246#" 0.348837
+cap "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n570_n1050#" "multiplier_22e959f4_1/a_n180_n1050#" 0.115801
+cap "multiplier_22e959f4_0/a_n210_n1246#" "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n570_n1050#" 147.611
+cap "route_quad_0f0ba6f5_0/m1_n1219_1035#" "multiplier_a07f7352_0/a_n180_n1050#" 2.13907
+cap "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_823_n1050#" "multiplier_22e959f4_0/a_n210_n1246#" 0.306659
+cap "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_n570_n1050#" "multiplier_22e959f4_0/a_n210_n1246#" 1.77303
+cap "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/w_n1299_n1525#" "c_route_74ab7015_0/m1_n480_n1491#" 6.96672
+cap "c_route_74ab7015_0/m1_n480_n1491#" "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n570_n1050#" 350.936
+cap "route_quad_0f0ba6f5_0/m1_n1219_1035#" "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n570_n1050#" 418.326
+cap "c_route_74ab7015_0/m1_n480_n1491#" "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_n570_n1050#" 7.09195
+cap "multiplier_a07f7352_0/a_n180_n1050#" "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n570_n1050#" 0.0498297
+cap "multiplier_a07f7352_0/w_n116_n1086#" "route_quad_0f0ba6f5_0/m1_n1219_1035#" 0.0657744
+cap "route_quad_0f0ba6f5_0/m1_n1219_1035#" "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_n570_n1050#" -55.0587
+cap "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/w_n1299_n1525#" "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n570_n1050#" 95.2796
+cap "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/w_n1299_n1525#" "multiplier_a07f7352_0/a_n180_n1050#" 0.208438
+cap "multiplier_22e959f4_0/a_n210_n1246#" "multiplier_a07f7352_0/w_144_n1086#" 1.28986
+cap "route_quad_0f0ba6f5_0/m1_n1219_1035#" "multiplier_a07f7352_0/w_144_n1086#" 0.278574
+cap "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_n570_n1050#" "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/w_n1299_n1525#" -12.3597
+cap "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_823_n1050#" "multiplier_22e959f4_0/a_n210_n1246#" 0.0245327
+cap "multiplier_5999f575_0/a_n180_n1050#" "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/w_n1299_n1525#" 0.208438
+cap "multiplier_22e959f4_0/a_n180_n1050#" "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/w_n1299_n1525#" 0.208438
+cap "multiplier_22e959f4_0/a_n210_n1246#" "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/w_n1299_n1525#" 44.0702
+cap "route_quad_0f0ba6f5_0/m1_n1219_1035#" "multiplier_5999f575_0/w_n246_n1086#" 0.278574
+cap "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n570_n1050#" "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n1043_n1050#" 4.58164
+cap "multiplier_5999f575_0/a_n180_n1050#" "route_quad_0f0ba6f5_0/m1_n1219_1035#" 2.13907
+cap "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n570_n1050#" "multiplier_22e959f4_0/a_n180_n1050#" 0.115801
+cap "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n570_n1050#" "route_quad_0f0ba6f5_0/m1_n1219_1035#" 275.275
+cap "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/w_n1299_n1525#" "c_route_74ab7015_0/m1_n480_n1491#" 5.59432
+cap "multiplier_5999f575_0/a_n180_n1050#" "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n570_n1050#" 0.0498297
+cap "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n695_n1050#" "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n570_n1050#" 1.10524
+cap "multiplier_22e959f4_0/a_n210_n1246#" "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n1043_n1050#" 0.306659
+cap "multiplier_5999f575_0/w_144_n1086#" "route_quad_0f0ba6f5_0/m1_n1219_1035#" 0.278574
+cap "multiplier_22e959f4_0/w_14_n1086#" "route_quad_0f0ba6f5_0/m1_n1219_1035#" 0.0657744
+cap "multiplier_22e959f4_0/a_n210_n1246#" "multiplier_5999f575_0/w_n246_n1086#" 1.28986
+cap "multiplier_5999f575_0/a_n180_n1050#" "route_quad_0f0ba6f5_0/m1_n1219_1035#" 2.13907
+cap "multiplier_22e959f4_0/a_n180_n1050#" "route_quad_0f0ba6f5_0/m1_n1219_1035#" 2.13907
+cap "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n600_n1246#" "multiplier_22e959f4_0/a_n210_n1246#" 0.348837
+cap "multiplier_22e959f4_0/a_n210_n1246#" "route_quad_0f0ba6f5_0/m1_n1219_1035#" 132.483
+cap "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n570_n1050#" "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n1043_n1050#" 4.58164
+cap "multiplier_22e959f4_0/a_n210_n1246#" "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n695_n1050#" 0.97993
+cap "multiplier_5999f575_0/a_n180_n1050#" "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n570_n1050#" 0.0498297
+cap "multiplier_22e959f4_0/a_n180_n1050#" "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n570_n1050#" 0.0498297
+cap "multiplier_22e959f4_0/a_n210_n1246#" "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n570_n1050#" 8.39113
+cap "multiplier_22e959f4_0/w_n116_n1086#" "route_quad_0f0ba6f5_0/m1_n1219_1035#" 0.0502981
+cap "c_route_74ab7015_0/m1_n480_n1491#" "multiplier_22e959f4_0/a_n180_n1050#" 0.281621
+cap "multiplier_5999f575_0/w_n116_n1086#" "route_quad_0f0ba6f5_0/m1_n1219_1035#" 0.0657744
+cap "multiplier_5999f575_0/w_144_n1086#" "multiplier_22e959f4_0/a_n210_n1246#" 0.398065
+cap "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/w_n1299_n1525#" "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n695_n1050#" -0.113506
+cap "c_route_74ab7015_0/m1_n480_n1491#" "route_quad_0f0ba6f5_0/m1_n1219_1035#" 29.3036
+cap "multiplier_22e959f4_0/a_n210_n1246#" "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n1043_n1050#" 0.0245327
+cap "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n695_n1050#" "c_route_74ab7015_0/m1_n480_n1491#" 0.276627
+cap "multiplier_5999f575_0/a_n180_n1050#" "c_route_74ab7015_0/m1_n480_n1491#" 0.281621
+cap "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/w_n1299_n1525#" "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n570_n1050#" 0.407392
+cap "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n570_n1050#" "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n1043_n1050#" 2.30041
+cap "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n570_n1050#" "c_route_74ab7015_0/m1_n480_n1491#" 473.967
+cap "multiplier_22e959f4_0/w_144_n1086#" "route_quad_0f0ba6f5_0/m1_n1219_1035#" 0.278574
+cap "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/w_n1299_n1525#" "route_quad_0f0ba6f5_0/m1_n1219_1035#" 1.20894
+cap "multiplier_22e959f4_0/a_n180_n1050#" "c_route_74ab7015_0/m1_n480_n1491#" 0.281621
+cap "multiplier_22e959f4_0/a_n210_n1246#" "c_route_74ab7015_0/m1_n480_n1491#" 490.14
+cap "multiplier_22e959f4_0/a_n210_n1246#" "multiplier_22e959f4_0/w_n246_n1086#" 0.618634
+cap "multiplier_5999f575_0/a_n180_n1050#" "c_route_74ab7015_0/m1_n480_n1491#" 0.281621
+cap "multiplier_5999f575_0/a_n180_n1050#" "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/w_n1299_n1525#" 0.208438
+cap "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/w_n1299_n1525#" "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n570_n1050#" 111.542
+cap "multiplier_22e959f4_1/w_144_n1086#" "multiplier_22e959f4_0/a_n210_n1246#" 0.618634
+cap "multiplier_22e959f4_0/a_n210_n1246#" "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n600_n1246#" 0.348837
+cap "multiplier_5999f575_0/w_14_n1086#" "route_quad_0f0ba6f5_0/m1_n1219_1035#" 0.0657744
+cap "multiplier_22e959f4_0/w_144_n1086#" "multiplier_22e959f4_0/a_n210_n1246#" 1.28986
+cap "multiplier_5999f575_0/w_492_n1086#" "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n695_n1050#" 0.37595
+cap "multiplier_22e959f4_0/w_14_n1086#" "c_route_2d13376d_0/m1_1219_1035#" 0.0948346
+cap "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n570_n1050#" "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/w_n1299_n1525#" 39.1574
+cap "multiplier_22e959f4_1/w_144_n1086#" "c_route_2d13376d_0/m1_1219_1035#" 0.0368128
+cap "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n570_n1050#" "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n695_n1050#" 0.869154
+cap "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n570_n1050#" "c_route_2d13376d_0/m1_1219_1035#" 636.011
+cap "multiplier_22e959f4_0/w_144_n1086#" "c_route_2d13376d_0/m1_1219_1035#" 0.124469
+cap "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/w_n1299_n1525#" "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n695_n1050#" 29.5453
+cap "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/w_n1299_n1525#" "c_route_2d13376d_0/m1_1219_1035#" 55.3012
+cap "multiplier_22e959f4_0/w_n116_n1086#" "c_route_2d13376d_0/m1_1219_1035#" 0.0744714
+cap "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n695_n1050#" "c_route_2d13376d_0/m1_1219_1035#" 628.859
+cap "c_route_2d13376d_0/m1_1219_1035#" "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n600_n1246#" 0.28125
+cap "multiplier_22e959f4_0/w_n246_n1086#" "c_route_2d13376d_0/m1_1219_1035#" 0.0599382
+cap "straight_route_ce1305f3_0/m1_2238_n1999#" "c_route_2d13376d_0/m1_1219_1035#" 1064.11
+cap "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/w_n1299_n1525#" "c_route_2d13376d_0/m1_1219_1035#" 11.8699
+cap "c_route_2d13376d_0/m1_1219_1035#" "c_route_90a1c5ed_0/m1_n609_n4608#" 0.255798
+cap "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/w_n1299_n1525#" "straight_route_ce1305f3_0/m1_2238_n1999#" 19.4865
+cap "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n570_n1050#" "c_route_2d13376d_0/m1_1219_1035#" 0.590317
+cap "straight_route_ce1305f3_0/m1_2238_n1999#" "c_route_90a1c5ed_0/m1_n609_n4608#" 28.5999
+cap "c_route_74ab7015_0/m1_n480_n1491#" "c_route_90a1c5ed_0/m1_n609_n4608#" 238.855
+cap "straight_route_ce1305f3_0/m1_2238_n1999#" "c_route_90a1c5ed_0/m1_n609_n4608#" 27.7146
+cap "c_route_5a15a20f_0/m1_n4099_1035#" "c_route_db19c842_0/m1_n3933_n4344#" 518.519
+cap "multiplier_22e959f4_0/a_n210_n1246#" "route_quad_0f0ba6f5_0/m1_n1219_1035#" 6.19593e-12
+cap "multiplier_22e959f4_0/a_n210_n1246#" "route_quad_2ab3f407_0/m1_n1219_1179#" 1.25056e-11
+cap "route_quad_0f0ba6f5_0/m1_n1219_1035#" "route_quad_2ab3f407_0/m1_n1219_1179#" -2.09184e-11
+cap "route_quad_2ab3f407_0/m1_n1219_1179#" "route_quad_0f0ba6f5_0/m1_n1219_1035#" -3.99609e-11
+cap "route_quad_0f0ba6f5_0/m1_n1219_1035#" "multiplier_22e959f4_0/a_n210_n1246#" 1.71951e-11
+cap "route_quad_2ab3f407_0/m1_n1219_1179#" "multiplier_22e959f4_0/a_n210_n1246#" 1.25056e-11
+cap "c_route_297e2d02_0/m1_2159_n4324#" "c_route_2d13376d_0/m1_1219_1035#" 518.519
+cap "c_route_90a1c5ed_0/m1_n609_n4608#" "c_route_74ab7015_0/m1_n480_n1491#" 341.463
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "c_route_db19c842_0/m1_n3933_n4344#" 4.42274
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/w_n1299_n1525#" "c_route_db19c842_0/m1_n3933_n4344#" 8.37932
+cap "c_route_5a15a20f_0/m1_n4099_1035#" "c_route_db19c842_0/m1_n3933_n4344#" 697.982
+cap "c_route_db19c842_0/m1_n3933_n4344#" "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 198.097
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "route_quad_0f0ba6f5_0/m1_n1219_1035#" 13.1588
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/w_n1299_n1525#" "route_quad_0f0ba6f5_0/m1_n1219_1035#" 27.9311
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/w_n1299_n1525#" "c_route_db19c842_0/m1_n3933_n4344#" 111.757
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n695_n1050#" -0.545874
+cap "c_route_db19c842_0/m1_n3933_n4344#" "route_quad_0f0ba6f5_0/m1_n1219_1035#" 85.6226
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/w_n1299_n1525#" "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n695_n1050#" -3.38771
+cap "c_route_db19c842_0/m1_n3933_n4344#" "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n695_n1050#" 20.1306
+cap "multiplier_22e959f4_1/a_n210_n1246#" "multiplier_a07f7352_0/a_n210_n1246#" 5.6338
+cap "multiplier_a07f7352_0/w_144_n1086#" "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 0.101554
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n600_n1246#" "multiplier_a07f7352_0/w_n594_n1086#" 0.758576
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n695_n1050#" "multiplier_a07f7352_0/a_n210_n1246#" 0.0136197
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "multiplier_22e959f4_1/a_n210_n1246#" 0.678987
+cap "multiplier_22e959f4_1/w_n116_n1086#" "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 0.101554
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n600_n1246#" "route_quad_0f0ba6f5_0/m1_n1219_1035#" 23.6682
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n600_n1246#" "multiplier_a07f7352_0/a_n653_n1050#" 0.618557
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n600_n1246#" "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 5.68434e-14
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "multiplier_a07f7352_0/a_n210_n1246#" 0.657967
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/w_n1299_n1525#" "route_quad_0f0ba6f5_0/m1_n1219_1035#" 9.56828
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/w_n1299_n1525#" "multiplier_a07f7352_0/a_n653_n1050#" 0.351131
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/w_n1299_n1525#" "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" -2.27374e-13
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n600_n1246#" "multiplier_22e959f4_1/a_n210_n1246#" 0.0333768
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "multiplier_a07f7352_0/w_14_n1086#" 0.101554
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "multiplier_22e959f4_1/w_14_n1086#" 0.0388293
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "multiplier_a07f7352_0/w_n116_n1086#" 0.101554
+cap "multiplier_a07f7352_0/a_n210_n1246#" "multiplier_22e959f4_1/w_n246_n1086#" 0.891792
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n600_n1246#" "multiplier_22e959f4_1/a_n210_n1246#" 0.0333768
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n600_n1246#" "multiplier_a07f7352_0/a_n210_n1246#" 0.0333768
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/w_n1299_n1525#" "multiplier_22e959f4_1/a_n210_n1246#" 0.678399
+cap "multiplier_a07f7352_0/w_n246_n1086#" "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 0.101554
+cap "multiplier_a07f7352_0/a_n210_n1246#" "route_quad_0f0ba6f5_0/m1_n1219_1035#" 0.875392
+cap "multiplier_22e959f4_1/a_n210_n1246#" "route_quad_0f0ba6f5_0/m1_n1219_1035#" 0.875392
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n600_n1246#" "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/w_n1299_n1525#" 2.27374e-13
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/w_n1299_n1525#" "multiplier_22e959f4_1/a_n210_n1246#" 0.678399
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/w_n1299_n1525#" "multiplier_a07f7352_0/a_n210_n1246#" 0.678399
+cap "multiplier_a07f7352_0/a_n210_n1246#" "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 0.676263
+cap "multiplier_22e959f4_1/a_n210_n1246#" "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 0.795182
+cap "multiplier_a07f7352_0/a_n210_n1246#" "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 0.657967
+cap "route_quad_2ab3f407_0/m1_n1219_1179#" "route_quad_0f0ba6f5_0/m1_n1219_1035#" -4.65394
+cap "multiplier_22e959f4_1/a_n210_n1246#" "multiplier_a07f7352_0/w_144_n1086#" 0.891792
+cap "route_quad_2ab3f407_0/m1_n1219_1179#" "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 32.4769
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n600_n1246#" "multiplier_a07f7352_0/w_n116_n1086#" 0.600539
+cap "multiplier_a07f7352_0/a_n210_n1246#" "route_quad_0f0ba6f5_0/m1_n1219_1035#" 0.6725
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n600_n1246#" "multiplier_a07f7352_0/w_n246_n1086#" 0.758576
+cap "multiplier_a07f7352_0/a_n210_n1246#" "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 0.657967
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n600_n1246#" "multiplier_a07f7352_0/a_n210_n1246#" 0.0333768
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n600_n1246#" "multiplier_22e959f4_1/a_n210_n1246#" 0.0333768
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n600_n1246#" "multiplier_a07f7352_0/a_n210_n1246#" 0.618557
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/w_n1299_n1525#" "multiplier_a07f7352_0/a_n210_n1246#" 0.678399
+cap "multiplier_22e959f4_1/a_n210_n1246#" "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/w_n1299_n1525#" 0.678399
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n600_n1246#" "route_quad_2ab3f407_0/m1_n1219_1179#" 79.6733
+cap "multiplier_a07f7352_0/a_n210_n1246#" "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/w_n1299_n1525#" 0.351131
+cap "multiplier_a07f7352_0/w_n594_n1086#" "route_quad_0f0ba6f5_0/m1_n1219_1035#" 0.901091
+cap "route_quad_2ab3f407_0/m1_n1219_1179#" "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/w_n1299_n1525#" 31.6814
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n600_n1246#" "multiplier_a07f7352_0/a_n210_n1246#" 0.618557
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "multiplier_a07f7352_0/w_n594_n1086#" 0.215054
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "multiplier_22e959f4_1/w_n246_n1086#" 0.282805
+cap "multiplier_22e959f4_1/a_n210_n1246#" "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n600_n1246#" 0.0144633
+cap "multiplier_a07f7352_0/a_n653_n1050#" "route_quad_0f0ba6f5_0/m1_n1219_1035#" 10.0564
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "route_quad_0f0ba6f5_0/m1_n1219_1035#" 31.9452
+cap "multiplier_a07f7352_0/a_n210_n1246#" "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/w_n1299_n1525#" 0.351131
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "multiplier_a07f7352_0/a_n653_n1050#" 0.657967
+cap "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "c_route_297e2d02_0/m1_2159_n4324#" -2.84217e-14
+cap "route_quad_2ab3f407_0/m1_n1219_1179#" "multiplier_22e959f4_0/w_n246_n1086#" 0.0413606
+cap "multiplier_5999f575_0/w_492_n1086#" "route_quad_0f0ba6f5_0/m1_n1219_1035#" -0.117558
+cap "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/w_n1299_n1525#" "multiplier_22e959f4_0/a_n210_n1246#" 0.678399
+cap "multiplier_5999f575_0/w_144_n1086#" "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 0.101554
+cap "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/w_n1299_n1525#" "route_quad_0f0ba6f5_0/m1_n1219_1035#" 1.12655
+cap "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/w_n1299_n1525#" "multiplier_5999f575_0/a_n210_n1246#" 0.351131
+cap "multiplier_22e959f4_0/a_n210_n1246#" "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 0.678987
+cap "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "multiplier_5999f575_0/a_n210_n1246#" 0.657967
+cap "multiplier_22e959f4_0/a_n210_n1246#" "multiplier_22e959f4_1/w_144_n1086#" 0.220569
+cap "c_route_297e2d02_0/m1_2159_n4324#" "multiplier_5999f575_0/a_n210_n1246#" 0.0333768
+cap "multiplier_5999f575_0/w_n246_n1086#" "multiplier_22e959f4_0/a_n210_n1246#" 0.891792
+cap "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "multiplier_22e959f4_0/a_n210_n1246#" 0.795182
+cap "multiplier_5999f575_0/w_144_n1086#" "c_route_297e2d02_0/m1_2159_n4324#" 0.758576
+cap "multiplier_22e959f4_0/a_n210_n1246#" "c_route_297e2d02_0/m1_2159_n4324#" 0.0333768
+cap "route_quad_2ab3f407_0/m1_n1219_1179#" "route_quad_0f0ba6f5_0/m1_n1219_1035#" 53.5837
+cap "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "route_quad_0f0ba6f5_0/m1_n1219_1035#" 21.303
+cap "multiplier_22e959f4_0/a_n210_n1246#" "c_route_297e2d02_0/m1_2159_n4324#" 0.0333768
+cap "c_route_297e2d02_0/m1_2159_n4324#" "multiplier_5999f575_0/a_n210_n1246#" 0.618557
+cap "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "multiplier_5999f575_0/a_n210_n1246#" 0.657967
+cap "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/w_n1299_n1525#" "multiplier_22e959f4_0/a_n210_n1246#" 0.678399
+cap "route_quad_0f0ba6f5_0/m1_n1219_1035#" "multiplier_5999f575_0/a_433_n1050#" -0.18304
+cap "multiplier_22e959f4_0/a_n210_n1246#" "multiplier_5999f575_0/a_n210_n1246#" 5.6338
+cap "route_quad_0f0ba6f5_0/m1_n1219_1035#" "multiplier_5999f575_0/a_n210_n1246#" 0.875392
+cap "c_route_297e2d02_0/m1_2159_n4324#" "multiplier_22e959f4_0/a_n210_n1246#" 0.0333768
+cap "multiplier_5999f575_0/w_n116_n1086#" "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 0.101554
+cap "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/w_n1299_n1525#" "multiplier_5999f575_0/a_n210_n1246#" 0.678399
+cap "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/w_n1299_n1525#" "route_quad_2ab3f407_0/m1_n1219_1179#" 31.6814
+cap "c_route_297e2d02_0/m1_2159_n4324#" "route_quad_0f0ba6f5_0/m1_n1219_1035#" 1.22081
+cap "c_route_297e2d02_0/m1_2159_n4324#" "multiplier_5999f575_0/a_n210_n1246#" 0.618557
+cap "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/w_n1299_n1525#" "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" -2.27374e-13
+cap "multiplier_22e959f4_0/a_n210_n1246#" "route_quad_0f0ba6f5_0/m1_n1219_1035#" 0.374926
+cap "multiplier_5999f575_0/w_14_n1086#" "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 0.101554
+cap "multiplier_22e959f4_0/w_144_n1086#" "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 0.282805
+cap "multiplier_22e959f4_1/a_n210_n1246#" "c_route_297e2d02_0/m1_2159_n4324#" 0.0189135
+cap "multiplier_22e959f4_1/a_n210_n1246#" "multiplier_22e959f4_0/w_n246_n1086#" 0.220569
+cap "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/w_n1299_n1525#" "multiplier_5999f575_0/a_n210_n1246#" 0.678399
+cap "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "multiplier_22e959f4_0/w_14_n1086#" 0.101554
+cap "multiplier_22e959f4_0/a_n210_n1246#" "multiplier_22e959f4_1/a_n210_n1246#" 2.53165
+cap "multiplier_5999f575_0/w_n246_n1086#" "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 0.101554
+cap "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "multiplier_5999f575_0/a_n210_n1246#" 0.657967
+cap "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "route_quad_2ab3f407_0/m1_n1219_1179#" 32.4769
+cap "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/a_n695_n1050#" "multiplier_5999f575_0/a_n210_n1246#" 0.0136197
+cap "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/w_n1299_n1525#" "c_route_297e2d02_0/m1_2159_n4324#" 5.68434e-14
+cap "multiplier_22e959f4_0/w_144_n1086#" "multiplier_5999f575_0/a_n210_n1246#" 0.891792
+cap "multiplier_22e959f4_0/a_n210_n1246#" "route_quad_0f0ba6f5_0/m1_n1219_1035#" 0.875392
+cap "route_quad_2ab3f407_0/m1_n1219_1179#" "multiplier_22e959f4_1/w_144_n1086#" 0.0413606
+cap "multiplier_5999f575_0/w_14_n1086#" "c_route_297e2d02_0/m1_2159_n4324#" 0.600539
+cap "multiplier_22e959f4_0/a_n210_n1246#" "c_route_297e2d02_0/m1_2159_n4324#" 0.0333768
+cap "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "multiplier_22e959f4_0/w_n116_n1086#" 0.0388293
+cap "route_quad_0f0ba6f5_0/m1_n1219_1035#" "multiplier_5999f575_0/a_n210_n1246#" 0.6725
+cap "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/w_n1299_n1525#" "multiplier_22e959f4_0/a_n210_n1246#" 0.678399
+cap "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/w_n1299_n1525#" "multiplier_5999f575_0/a_n210_n1246#" 0.351131
+cap "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "multiplier_5999f575_0/a_n210_n1246#" 0.676263
+cap "c_route_297e2d02_0/m1_2159_n4324#" "multiplier_5999f575_0/a_n210_n1246#" 0.0333768
+cap "route_quad_2ab3f407_0/m1_n1219_1179#" "c_route_297e2d02_0/m1_2159_n4324#" 113.4
+cap "multiplier_22e959f4_1/a_n210_n1246#" "route_quad_0f0ba6f5_0/m1_n1219_1035#" 0.374926
+cap "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/a_n695_n1050#" -0.545874
+cap "c_route_2d13376d_0/m1_1219_1035#" "multiplier_5999f575_0/w_492_n1086#" 1.01865
+cap "c_route_297e2d02_0/m1_2159_n4324#" "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/a_n695_n1050#" 20.1306
+cap "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/a_n695_n1050#" "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/w_n1299_n1525#" -3.38771
+cap "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "multiplier_5999f575_0/a_433_n1050#" 0.657967
+cap "c_route_297e2d02_0/m1_2159_n4324#" "multiplier_5999f575_0/a_433_n1050#" 0.618557
+cap "multiplier_5999f575_0/a_433_n1050#" "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/w_n1299_n1525#" 0.351131
+cap "c_route_297e2d02_0/m1_2159_n4324#" "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 98.446
+cap "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/w_n1299_n1525#" 5.68434e-14
+cap "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "multiplier_5999f575_0/w_492_n1086#" 0.215054
+cap "c_route_297e2d02_0/m1_2159_n4324#" "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/w_n1299_n1525#" 69.9176
+cap "c_route_297e2d02_0/m1_2159_n4324#" "multiplier_5999f575_0/w_492_n1086#" 0.758576
+cap "c_route_2d13376d_0/m1_1219_1035#" "multiplier_5999f575_0/a_433_n1050#" 10.2395
+cap "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "c_route_2d13376d_0/m1_1219_1035#" 20.8496
+cap "c_route_2d13376d_0/m1_1219_1035#" "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/w_n1299_n1525#" 31.6513
+cap "c_route_297e2d02_0/m1_2159_n4324#" "c_route_2d13376d_0/m1_1219_1035#" 87.0738
+cap "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/w_n1299_n1525#" "c_route_2d13376d_0/m1_1219_1035#" 6.91155
+cap "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/w_n1299_n1525#" "c_route_297e2d02_0/m1_2159_n4324#" 46.3079
+cap "c_route_2d13376d_0/m1_1219_1035#" "c_route_297e2d02_0/m1_2159_n4324#" 577.567
+cap "c_route_2d13376d_0/m1_1219_1035#" "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 5.28624
+cap "c_route_90a1c5ed_0/m1_n609_n4608#" "c_route_297e2d02_0/m1_2159_n4324#" 0.762907
+cap "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "c_route_297e2d02_0/m1_2159_n4324#" 100.685
+cap "c_route_90a1c5ed_0/m1_n609_n4608#" "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 0.614812
+cap "c_route_2d13376d_0/m1_1219_1035#" "c_route_90a1c5ed_0/m1_n609_n4608#" 344.532
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "c_route_db19c842_0/m1_n3933_n4344#" 10.7481
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n570_n1050#" "c_route_db19c842_0/m1_n3933_n4344#" 518.519
+cap "c_route_db19c842_0/m1_n3933_n4344#" "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/w_n1299_n1525#" 14.8841
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "route_quad_0f0ba6f5_0/m1_n1219_1035#" 1.80749
+cap "c_route_db19c842_0/m1_n3933_n4344#" "route_quad_0f0ba6f5_0/m1_n1219_1035#" 2.30784e-11
+cap "c_route_db19c842_0/m1_n3933_n4344#" "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 1.34389
+cap "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "c_route_90a1c5ed_0/m1_n609_n4608#" 1.25655
+cap "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "c_route_2d13376d_0/m1_1219_1035#" 10.1694
+cap "c_route_2d13376d_0/m1_1219_1035#" "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/w_n1299_n1525#" 8.5934
+cap "c_route_90a1c5ed_0/m1_n609_n4608#" "c_route_2d13376d_0/m1_1219_1035#" 341.463
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n570_n1050#" 0.05578
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n695_n1050#" "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n570_n1050#" 766.787
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/w_n1299_n1525#" "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n570_n1050#" 0.324997
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n695_n1050#" "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n1043_n1050#" 1.01696
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n695_n1050#" "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n1043_n1050#" 0.361744
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n695_n1050#" 1.14488
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n695_n1050#" "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/w_n1299_n1525#" 5.03232
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n1043_n1050#" "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n695_n1050#" 0.857876
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/w_n1299_n1525#" "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n570_n1050#" 51.3485
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n570_n1050#" "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n1043_n1050#" 0.534465
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n695_n1050#" "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n600_n1246#" 7.10543e-15
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n695_n1050#" "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n600_n1246#" 7.10543e-15
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n695_n1050#" "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n1043_n1050#" 25.2436
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n695_n1050#" "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n600_n1246#" 7.10543e-15
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n695_n1050#" "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n1043_n1050#" 25.2436
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n570_n1050#" "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n1043_n1050#" 1.27104
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n570_n1050#" "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n1043_n1050#" 1.27104
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n695_n1050#" "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n600_n1246#" 0.6725
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n695_n1050#" "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n600_n1246#" 7.10543e-15
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n695_n1050#" "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 100.541
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/w_n1299_n1525#" "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n695_n1050#" 84.7927
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n695_n1050#" "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n1043_n1050#" 9.86551
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n695_n1050#" "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n570_n1050#" 418.044
+cap "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n570_n1050#" 162.41
+cap "c_route_90a1c5ed_0/m1_n609_n4608#" "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/a_823_n1050#" 1.27104
+cap "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "c_route_90a1c5ed_0/m1_n609_n4608#" 63.1024
+cap "c_route_90a1c5ed_0/m1_n609_n4608#" "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/w_n1299_n1525#" 30.794
+cap "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/a_n695_n1050#" "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/a_823_n1050#" 25.2436
+cap "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/a_n695_n1050#" "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/a_823_n1050#" 9.89003
+cap "c_route_90a1c5ed_0/m1_n609_n4608#" "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/a_n695_n1050#" 220.608
+cap "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/a_n695_n1050#" "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/a_823_n1050#" 25.2436
+cap "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/a_n695_n1050#" 6.12946
+cap "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/a_n695_n1050#" "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/w_n1299_n1525#" 46.107
+cap "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/a_n695_n1050#" "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/a_n600_n1246#" 0.6725
+cap "c_route_90a1c5ed_0/m1_n609_n4608#" "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/a_823_n1050#" 1.27104
+cap "c_route_90a1c5ed_0/m1_n609_n4608#" "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/a_823_n1050#" 0.503479
+cap "c_route_90a1c5ed_0/m1_n609_n4608#" "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 99.2086
+cap "c_route_2d13376d_0/m1_1219_1035#" "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/w_n1299_n1525#" 41.6264
+cap "c_route_2d13376d_0/m1_1219_1035#" "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/a_823_n1050#" 0.301591
+cap "c_route_2d13376d_0/m1_1219_1035#" "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/a_823_n1050#" 0.838902
+cap "c_route_2d13376d_0/m1_1219_1035#" "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/a_823_n1050#" 0.582353
+cap "c_route_90a1c5ed_0/m1_n609_n4608#" "c_route_2d13376d_0/m1_1219_1035#" 793.971
+cap "c_route_90a1c5ed_0/m1_n609_n4608#" "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/w_n1299_n1525#" 20.5545
+cap "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "c_route_2d13376d_0/m1_1219_1035#" 95.6252
+cap "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "c_route_90a1c5ed_0/m1_n609_n4608#" 0.0386261
+cap "c_route_2d13376d_0/m1_1219_1035#" "c_route_90a1c5ed_0/m1_n609_n4608#" 201.185
+cap "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/w_n1299_n1525#" "c_route_90a1c5ed_0/m1_n609_n4608#" 0.0879648
+merge "route_quad_2ab3f407_0/m1_n1219_1179#" "multiplier_22e959f4_0/a_n180_n1050#" -1874.06 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -273180 -5840 0 0 0 0 0 0 0 0 0 0
+merge "multiplier_22e959f4_0/a_n180_n1050#" "multiplier_5999f575_0/a_n180_n1050#"
+merge "multiplier_5999f575_0/a_n180_n1050#" "via_stack_daa6e7a5_0/m1_n43_n43#"
+merge "via_stack_daa6e7a5_0/m1_n43_n43#" "multiplier_a07f7352_0/a_n180_n1050#"
+merge "multiplier_a07f7352_0/a_n180_n1050#" "multiplier_22e959f4_1/a_n180_n1050#"
+merge "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/a_n695_n1050#" "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n570_n1050#" -16085.4 0 0 0 0 0 0 0 0 0 0 -201600 -8592 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -125328 -10032 -664252 -26602 -2322 -544 0 0 0 0 0 0 0 0
+merge "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n570_n1050#" "route_quad_2ab3f407_0/VSUBS"
+merge "route_quad_2ab3f407_0/VSUBS" "via_stack_daa6e7a5_0/VSUBS"
+merge "via_stack_daa6e7a5_0/VSUBS" "2_multiplier_shared_gate_comps_1/VSUBS"
+merge "2_multiplier_shared_gate_comps_1/VSUBS" "L_route_53888900_0/VSUBS"
+merge "L_route_53888900_0/VSUBS" "c_route_2d13376d_0/VSUBS"
+merge "c_route_2d13376d_0/VSUBS" "c_route_2d13376d_0/m1_1219_1035#"
+merge "c_route_2d13376d_0/m1_1219_1035#" "route_quad_750bfa83_0/VSUBS"
+merge "route_quad_750bfa83_0/VSUBS" "route_quad_750bfa83_0/m1_79_1035#"
+merge "route_quad_750bfa83_0/m1_79_1035#" "c_route_74ab7015_0/m1_n480_n1491#"
+merge "c_route_74ab7015_0/m1_n480_n1491#" "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_n695_n1050#"
+merge "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_n695_n1050#" "via_stack_5c4b7883_0/m1_n43_n43#"
+merge "via_stack_5c4b7883_0/m1_n43_n43#" "L_route_aaaa4b9a_0/m1_n880_n1999#"
+merge "L_route_aaaa4b9a_0/m1_n880_n1999#" "route_quad_0f0ba6f5_0/VSUBS"
+merge "route_quad_0f0ba6f5_0/VSUBS" "route_quad_0f0ba6f5_0/m1_n1219_1035#"
+merge "route_quad_0f0ba6f5_0/m1_n1219_1035#" "c_route_5a15a20f_0/m1_n4099_1035#"
+merge "c_route_5a15a20f_0/m1_n4099_1035#" "L_route_504ff9c7_0/m1_n4114_n1687#"
+merge "L_route_504ff9c7_0/m1_n4114_n1687#" "Unnamed_e01d88d0_0/compass_8200b508$3_0/m1_n679_n58#"
+merge "Unnamed_e01d88d0_0/compass_8200b508$3_0/m1_n679_n58#" "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n570_n1050#"
+merge "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n570_n1050#" "straight_route_ebdb395f_0/m1_880_n1739#"
+merge "straight_route_ebdb395f_0/m1_880_n1739#" "c_route_5a15a20f_0/VSUBS"
+merge "c_route_5a15a20f_0/VSUBS" "straight_route_283b9338_0/VSUBS"
+merge "straight_route_283b9338_0/VSUBS" "multiplier_22e959f4_0/a_n305_n1050#"
+merge "multiplier_22e959f4_0/a_n305_n1050#" "multiplier_5999f575_0/a_n305_n1050#"
+merge "multiplier_5999f575_0/a_n305_n1050#" "straight_route_268614ec_0/VSUBS"
+merge "straight_route_268614ec_0/VSUBS" "Unnamed_e01d88d0_0/VSUBS"
+merge "Unnamed_e01d88d0_0/VSUBS" "c_route_74ab7015_0/VSUBS"
+merge "c_route_74ab7015_0/VSUBS" "multiplier_a07f7352_0/a_n305_n1050#"
+merge "multiplier_a07f7352_0/a_n305_n1050#" "multiplier_22e959f4_1/a_n305_n1050#"
+merge "multiplier_22e959f4_1/a_n305_n1050#" "route_quad_128533b8_0/VSUBS"
+merge "route_quad_128533b8_0/VSUBS" "via_stack_5c4b7883_0/VSUBS"
+merge "via_stack_5c4b7883_0/VSUBS" "L_route_504ff9c7_0/VSUBS"
+merge "L_route_504ff9c7_0/VSUBS" "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#"
+merge "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "multiplier_a07f7352_0/a_n653_n1050#"
+merge "multiplier_a07f7352_0/a_n653_n1050#" "straight_route_79041f12_0/li_n1506_n1697#"
+merge "straight_route_79041f12_0/li_n1506_n1697#" "straight_route_79041f12_0/VSUBS"
+merge "straight_route_79041f12_0/VSUBS" "straight_route_97afe264_0/VSUBS"
+merge "straight_route_97afe264_0/VSUBS" "c_route_297e2d02_0/VSUBS"
+merge "c_route_297e2d02_0/VSUBS" "straight_route_ce1305f3_0/VSUBS"
+merge "straight_route_ce1305f3_0/VSUBS" "straight_route_ebdb395f_0/VSUBS"
+merge "straight_route_ebdb395f_0/VSUBS" "c_route_90a1c5ed_0/VSUBS"
+merge "c_route_90a1c5ed_0/VSUBS" "L_route_aaaa4b9a_0/VSUBS"
+merge "L_route_aaaa4b9a_0/VSUBS" "via_stack_c894a9a7_0/VSUBS"
+merge "via_stack_c894a9a7_0/VSUBS" "c_route_db19c842_0/VSUBS"
+merge "c_route_db19c842_0/VSUBS" "2_multiplier_shared_gate_comps_0/VSUBS"
+merge "2_multiplier_shared_gate_comps_0/VSUBS" "c_route_feafbf71_0/VSUBS"
+merge "c_route_feafbf71_0/VSUBS" "VSUBS"
+merge "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n695_n1050#" "multiplier_22e959f4_0/a_n210_n1246#" -8858.07 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -110880 -5144 -13068 -924 0 0 0 0 0 0 0 0
+merge "multiplier_22e959f4_0/a_n210_n1246#" "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/a_n600_n1246#"
+merge "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/a_n600_n1246#" "L_route_53888900_0/m1_n3923_4157#"
+merge "L_route_53888900_0/m1_n3923_4157#" "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n600_n1246#"
+merge "2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n600_n1246#" "multiplier_5999f575_0/a_n210_n1246#"
+merge "multiplier_5999f575_0/a_n210_n1246#" "straight_route_268614ec_0/m1_1140_n1290#"
+merge "straight_route_268614ec_0/m1_1140_n1290#" "multiplier_a07f7352_0/a_n210_n1246#"
+merge "multiplier_a07f7352_0/a_n210_n1246#" "multiplier_22e959f4_1/a_n210_n1246#"
+merge "multiplier_22e959f4_1/a_n210_n1246#" "route_quad_128533b8_0/m1_n1140_n1290#"
+merge "route_quad_128533b8_0/m1_n1140_n1290#" "c_route_297e2d02_0/m1_2159_n4324#"
+merge "c_route_297e2d02_0/m1_2159_n4324#" "straight_route_97afe264_0/m1_n3933_n1310#"
+merge "straight_route_97afe264_0/m1_n3933_n1310#" "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n695_n1050#"
+merge "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n695_n1050#" "straight_route_ce1305f3_0/m1_2238_n1999#"
+merge "straight_route_ce1305f3_0/m1_2238_n1999#" "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n600_n1246#"
+merge "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n600_n1246#" "c_route_db19c842_0/m1_n3933_n4344#"
+merge "c_route_db19c842_0/m1_n3933_n4344#" "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_n600_n1246#"
+merge "2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "multiplier_5999f575_0/a_433_n1050#" -0.0273583 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "multiplier_5999f575_0/a_433_n1050#" "straight_route_283b9338_0/li_1440_n1697#"
+merge "c_route_90a1c5ed_0/m1_n609_n4608#" "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/a_n570_n1050#" -3042.02 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -928 0 0 0 0 0 0 0 0 0 0
+merge "2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/a_n570_n1050#" "via_stack_c894a9a7_0/m1_n150_n150#"
+merge "via_stack_c894a9a7_0/m1_n150_n150#" "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_n570_n1050#"
+merge "2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_n570_n1050#" "c_route_feafbf71_0/m1_n4360_n4608#"

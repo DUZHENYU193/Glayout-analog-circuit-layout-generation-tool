@@ -1,0 +1,151 @@
+timestamp 1572014192
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use straight_route_06f4c159 straight_route_06f4c159_0 1 0 0 0 1 0
+use straight_route_c25e2fa4 straight_route_c25e2fa4_0 1 0 0 0 1 0
+use rectangle_e6adcbbe rectangle_e6adcbbe_0 1 0 0 0 1 0
+use multiplier_b353b9ed multiplier_b353b9ed_0 1 0 -759 0 1 0
+use Unnamed_a5af299d$1 Unnamed_a5af299d$1_0 1 0 0 0 1 0
+use straight_route_3f9e4019 straight_route_3f9e4019_0 1 0 0 0 1 0
+use multiplier_b353b9ed$1 multiplier_b353b9ed$1_0 1 0 759 0 1 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "multiplier_b353b9ed_0/a_n458_n1050#" "multiplier_b353b9ed$1_0/a_n33_n1246#" -129.826
+cap "multiplier_b353b9ed_0/a_15_n1050#" "multiplier_b353b9ed$1_0/a_n33_n1246#" 78.8802
+cap "multiplier_b353b9ed$1_0/a_n33_n1246#" "Unnamed_a5af299d$1_0/a_n1431_n1483#" 44.2407
+cap "multiplier_b353b9ed_0/a_238_n1050#" "multiplier_b353b9ed$1_0/a_n458_n1050#" 22.131
+cap "multiplier_b353b9ed$1_0/w_297_n1086#" "multiplier_b353b9ed_0/a_n458_n1050#" 212.535
+cap "multiplier_b353b9ed$1_0/w_297_n1086#" "multiplier_b353b9ed_0/a_15_n1050#" 151.995
+cap "multiplier_b353b9ed$1_0/w_297_n1086#" "Unnamed_a5af299d$1_0/a_n1431_n1483#" 352.098
+cap "multiplier_b353b9ed$1_0/a_n33_n1246#" "multiplier_b353b9ed$1_0/a_n110_n1050#" 61.0878
+cap "multiplier_b353b9ed_0/a_238_n1050#" "multiplier_b353b9ed$1_0/a_n33_n1246#" 75.1079
+cap "multiplier_b353b9ed_0/a_n458_n1050#" "Unnamed_a5af299d$1_0/a_n1431_n1483#" 178.112
+cap "multiplier_b353b9ed_0/a_15_n1050#" "Unnamed_a5af299d$1_0/a_n1431_n1483#" 5.20009
+cap "multiplier_b353b9ed$1_0/w_297_n1086#" "multiplier_b353b9ed$1_0/a_n110_n1050#" 124.638
+cap "multiplier_b353b9ed_0/a_238_n1050#" "multiplier_b353b9ed$1_0/w_297_n1086#" 344.585
+cap "multiplier_b353b9ed_0/a_n458_n1050#" "multiplier_b353b9ed$1_0/a_n110_n1050#" 190.305
+cap "multiplier_b353b9ed_0/a_15_n1050#" "multiplier_b353b9ed$1_0/a_n110_n1050#" 627.573
+cap "multiplier_b353b9ed$1_0/a_n110_n1050#" "Unnamed_a5af299d$1_0/a_n1431_n1483#" 9.87394
+cap "multiplier_b353b9ed_0/a_238_n1050#" "multiplier_b353b9ed_0/a_n458_n1050#" 5.60227
+cap "multiplier_b353b9ed_0/a_15_n1050#" "multiplier_b353b9ed$1_0/a_n458_n1050#" 4.62148
+cap "multiplier_b353b9ed_0/a_238_n1050#" "multiplier_b353b9ed_0/a_15_n1050#" 190.305
+cap "multiplier_b353b9ed_0/a_238_n1050#" "Unnamed_a5af299d$1_0/a_n1431_n1483#" 21.1917
+cap "multiplier_b353b9ed$1_0/w_297_n1086#" "multiplier_b353b9ed$1_0/a_n33_n1246#" 298.642
+cap "Unnamed_a5af299d$1_0/a_n1431_n1483#" "multiplier_b353b9ed$1_0/a_n458_n1050#" 21.1917
+cap "multiplier_b353b9ed$1_0/a_15_n1050#" "Unnamed_a5af299d$1_0/a_n1431_n1483#" 9.87394
+cap "multiplier_b353b9ed$1_0/w_297_n1086#" "multiplier_b353b9ed$1_0/a_238_n1050#" 253.571
+cap "multiplier_b353b9ed$1_0/a_n33_n1246#" "multiplier_b353b9ed$1_0/a_n458_n1050#" -62.3684
+cap "multiplier_b353b9ed$1_0/a_n33_n1246#" "multiplier_b353b9ed$1_0/a_15_n1050#" 61.0878
+cap "multiplier_b353b9ed$1_0/a_n110_n1050#" "multiplier_b353b9ed$1_0/a_n458_n1050#" 190.305
+cap "multiplier_b353b9ed$1_0/a_n110_n1050#" "multiplier_b353b9ed_0/a_15_n1050#" 14.7667
+cap "multiplier_b353b9ed$1_0/a_15_n1050#" "multiplier_b353b9ed$1_0/a_n110_n1050#" 612.806
+cap "multiplier_b353b9ed$1_0/w_297_n1086#" "multiplier_b353b9ed$1_0/a_n458_n1050#" 303.548
+cap "multiplier_b353b9ed$1_0/a_n110_n1050#" "multiplier_b353b9ed_0/a_238_n1050#" 4.62148
+cap "multiplier_b353b9ed$1_0/a_15_n1050#" "multiplier_b353b9ed$1_0/w_297_n1086#" 124.638
+cap "multiplier_b353b9ed$1_0/a_n33_n1246#" "Unnamed_a5af299d$1_0/a_n1431_n1483#" 51.2436
+cap "multiplier_b353b9ed$1_0/a_n458_n1050#" "multiplier_b353b9ed$1_0/a_238_n1050#" 5.60227
+cap "multiplier_b353b9ed$1_0/a_15_n1050#" "multiplier_b353b9ed$1_0/a_238_n1050#" 190.305
+cap "multiplier_b353b9ed$1_0/a_n110_n1050#" "Unnamed_a5af299d$1_0/a_n1431_n1483#" 5.20009
+cap "Unnamed_a5af299d$1_0/a_n1431_n1483#" "multiplier_b353b9ed$1_0/w_297_n1086#" 240.147
+cap "multiplier_b353b9ed$1_0/a_n33_n1246#" "multiplier_b353b9ed$1_0/a_n110_n1050#" 78.8802
+cap "Unnamed_a5af299d$1_0/a_n1431_n1483#" "multiplier_b353b9ed$1_0/a_238_n1050#" 97.9374
+cap "multiplier_b353b9ed$1_0/a_n33_n1246#" "multiplier_b353b9ed$1_0/w_297_n1086#" 350.301
+cap "multiplier_b353b9ed$1_0/a_n110_n1050#" "multiplier_b353b9ed$1_0/w_297_n1086#" 151.995
+cap "multiplier_b353b9ed$1_0/a_n33_n1246#" "multiplier_b353b9ed$1_0/a_238_n1050#" 7.65035
+cap "multiplier_b353b9ed_0/a_238_n1050#" "multiplier_b353b9ed$1_0/a_n458_n1050#" 22.131
+cap "Unnamed_a5af299d$1_0/a_n1431_n1483#" "multiplier_b353b9ed$1_0/a_n33_n1246#" 1.45896
+cap "multiplier_b353b9ed$1_0/a_238_n1050#" "Unnamed_a5af299d$1_0/a_n1431_n1483#" 80.175
+cap "multiplier_b353b9ed$1_0/w_297_n1086#" "Unnamed_a5af299d$1_0/a_n1431_n1483#" 151.2
+cap "multiplier_b353b9ed$1_0/a_n110_n1050#" "multiplier_b353b9ed_0/a_15_n1050#" 1083.17
+cap "Unnamed_a5af299d$1_0/a_n1431_n1483#" "multiplier_b353b9ed$1_0/w_297_n1086#" 140.388
+cap "multiplier_b353b9ed$1_0/w_297_n1086#" "multiplier_b353b9ed$1_0/a_n33_n1246#" 25.8113
+cap "multiplier_b353b9ed_0/a_15_n1050#" "multiplier_b353b9ed$1_0/a_15_n1050#" 1.4319
+cap "multiplier_b353b9ed$1_0/a_n110_n1050#" "multiplier_b353b9ed_0/a_238_n1050#" 60.3539
+cap "multiplier_b353b9ed_0/a_15_n1050#" "multiplier_b353b9ed$1_0/a_n458_n1050#" 6.12506
+cap "Unnamed_a5af299d$1_0/a_n1431_n1483#" "multiplier_b353b9ed_0/a_n458_n1050#" 188.504
+cap "multiplier_b353b9ed_0/a_15_n1050#" "multiplier_b353b9ed$1_0/w_297_n1086#" 274.57
+cap "multiplier_b353b9ed_0/a_n458_n1050#" "multiplier_b353b9ed$1_0/a_n33_n1246#" -167.459
+cap "multiplier_b353b9ed_0/a_238_n1050#" "multiplier_b353b9ed$1_0/a_n458_n1050#" 24.9962
+cap "multiplier_b353b9ed$1_0/w_297_n1086#" "multiplier_b353b9ed_0/a_238_n1050#" 290.071
+cap "multiplier_b353b9ed$1_0/a_n110_n1050#" "multiplier_b353b9ed$1_0/w_297_n1086#" 338.62
+cap "Unnamed_a5af299d$1_0/a_n1431_n1483#" "multiplier_b353b9ed$1_0/a_n33_n1246#" 0.164924
+cap "multiplier_b353b9ed$1_0/a_n110_n1050#" "multiplier_b353b9ed_0/a_n458_n1050#" 252.197
+cap "multiplier_b353b9ed_0/a_15_n1050#" "Unnamed_a5af299d$1_0/a_n1431_n1483#" 4.5363
+cap "multiplier_b353b9ed_0/a_15_n1050#" "multiplier_b353b9ed$1_0/a_n33_n1246#" 78.7704
+cap "Unnamed_a5af299d$1_0/a_n1431_n1483#" "multiplier_b353b9ed_0/a_238_n1050#" 4.60556
+cap "multiplier_b353b9ed$1_0/a_n33_n1246#" "multiplier_b353b9ed_0/a_238_n1050#" 2.51572
+cap "multiplier_b353b9ed$1_0/w_297_n1086#" "multiplier_b353b9ed_0/a_n458_n1050#" 164.533
+cap "multiplier_b353b9ed$1_0/a_n110_n1050#" "Unnamed_a5af299d$1_0/a_n1431_n1483#" 25.9397
+cap "multiplier_b353b9ed$1_0/a_n110_n1050#" "multiplier_b353b9ed$1_0/a_n33_n1246#" 86.8458
+cap "multiplier_b353b9ed_0/a_15_n1050#" "multiplier_b353b9ed_0/a_238_n1050#" 251.985
+cap "multiplier_b353b9ed_0/a_15_n1050#" "multiplier_b353b9ed$1_0/a_15_n1050#" 1.38144
+cap "multiplier_b353b9ed$1_0/w_297_n1086#" "multiplier_b353b9ed$1_0/a_n110_n1050#" 443.604
+cap "multiplier_b353b9ed$1_0/w_297_n1086#" "multiplier_b353b9ed$1_0/a_n458_n1050#" 268.877
+cap "multiplier_b353b9ed$1_0/w_297_n1086#" "multiplier_b353b9ed$1_0/a_n33_n1246#" 25.8113
+cap "Unnamed_a5af299d$1_0/a_n1431_n1483#" "multiplier_b353b9ed$1_0/a_n110_n1050#" 18.9232
+cap "multiplier_b353b9ed$1_0/a_15_n1050#" "multiplier_b353b9ed$1_0/a_n110_n1050#" 1022.62
+cap "Unnamed_a5af299d$1_0/a_n1431_n1483#" "multiplier_b353b9ed$1_0/a_n458_n1050#" 4.60556
+cap "Unnamed_a5af299d$1_0/a_n1431_n1483#" "multiplier_b353b9ed$1_0/a_n33_n1246#" 0.164924
+cap "multiplier_b353b9ed$1_0/a_238_n1050#" "multiplier_b353b9ed$1_0/a_n110_n1050#" 0.212118
+cap "multiplier_b353b9ed$1_0/a_n33_n1246#" "multiplier_b353b9ed$1_0/a_15_n1050#" 78.7704
+cap "multiplier_b353b9ed$1_0/w_297_n1086#" "multiplier_b353b9ed$1_0/a_15_n1050#" 220.455
+cap "multiplier_b353b9ed$1_0/a_238_n1050#" "multiplier_b353b9ed$1_0/a_n33_n1246#" 2.51572
+cap "multiplier_b353b9ed_0/a_15_n1050#" "multiplier_b353b9ed$1_0/a_n110_n1050#" 20.4809
+cap "multiplier_b353b9ed$1_0/a_238_n1050#" "multiplier_b353b9ed$1_0/w_297_n1086#" 185.727
+cap "multiplier_b353b9ed_0/a_238_n1050#" "multiplier_b353b9ed$1_0/a_n110_n1050#" 6.12506
+cap "multiplier_b353b9ed_0/a_238_n1050#" "multiplier_b353b9ed$1_0/a_n458_n1050#" 24.9962
+cap "Unnamed_a5af299d$1_0/a_n1431_n1483#" "multiplier_b353b9ed$1_0/a_15_n1050#" 10.6939
+cap "multiplier_b353b9ed$1_0/a_238_n1050#" "Unnamed_a5af299d$1_0/a_n1431_n1483#" 93.6147
+cap "multiplier_b353b9ed$1_0/a_238_n1050#" "multiplier_b353b9ed$1_0/a_15_n1050#" 251.985
+cap "multiplier_b353b9ed$1_0/a_n458_n1050#" "multiplier_b353b9ed$1_0/a_n110_n1050#" 312.339
+cap "multiplier_b353b9ed$1_0/a_n33_n1246#" "multiplier_b353b9ed$1_0/a_n110_n1050#" 86.8458
+cap "multiplier_b353b9ed$1_0/a_n33_n1246#" "multiplier_b353b9ed$1_0/a_n458_n1050#" -167.459
+cap "multiplier_b353b9ed$1_0/a_238_n1050#" "Unnamed_a5af299d$1_0/a_n1431_n1483#" 94.8895
+cap "multiplier_b353b9ed$1_0/w_297_n1086#" "Unnamed_a5af299d$1_0/a_n1431_n1483#" 139.178
+cap "Unnamed_a5af299d$1_0/a_n1431_n1483#" "multiplier_b353b9ed$1_0/a_15_n1050#" 5.02644
+cap "multiplier_b353b9ed$1_0/w_297_n1086#" "Unnamed_a5af299d$1_0/a_n1431_n1483#" 250.401
+cap "multiplier_b353b9ed_0/a_15_n1050#" "Unnamed_a5af299d$1_0/a_n1431_n1483#" 45.6388
+cap "multiplier_b353b9ed_0/a_238_n1050#" "Unnamed_a5af299d$1_0/a_n1431_n1483#" 4.21828
+cap "Unnamed_a5af299d$1_0/a_n1431_n1483#" "multiplier_b353b9ed_0/a_n458_n1050#" 1.35125
+cap "multiplier_b353b9ed_0/a_15_n1050#" "multiplier_b353b9ed$1_0/a_15_n1050#" 1.82085
+cap "multiplier_b353b9ed_0/a_n458_n1050#" "Unnamed_a5af299d$1_0/a_n1431_n1483#" 4.21828
+cap "Unnamed_a5af299d$1_0/a_n1431_n1483#" "multiplier_b353b9ed_0/a_238_n1050#" 1.35125
+cap "multiplier_b353b9ed_0/a_n458_n1050#" "Unnamed_a5af299d$1_0/a_n1431_n1483#" 4.21828
+cap "multiplier_b353b9ed_0/a_15_n1050#" "multiplier_b353b9ed$1_0/w_297_n1086#" 78.4921
+cap "Unnamed_a5af299d$1_0/a_n1431_n1483#" "multiplier_b353b9ed_0/a_n33_n1246#" 1.35125
+cap "multiplier_b353b9ed_0/a_238_n1050#" "Unnamed_a5af299d$1_0/a_n1431_n1483#" 4.21828
+cap "multiplier_b353b9ed$1_0/a_n110_n1050#" "Unnamed_a5af299d$1_0/a_n1431_n1483#" 14.9996
+cap "Unnamed_a5af299d$1_0/a_n1431_n1483#" "multiplier_b353b9ed$1_0/a_n33_n1246#" 1.35125
+cap "multiplier_b353b9ed$1_0/a_n458_n1050#" "Unnamed_a5af299d$1_0/a_n1431_n1483#" 4.21828
+cap "multiplier_b353b9ed$1_0/a_15_n1050#" "multiplier_b353b9ed_0/a_15_n1050#" 1.71118
+cap "Unnamed_a5af299d$1_0/a_n1431_n1483#" "multiplier_b353b9ed$1_0/a_238_n1050#" 1.35125
+cap "Unnamed_a5af299d$1_0/a_n1431_n1483#" "multiplier_b353b9ed$1_0/a_15_n1050#" 39.4632
+cap "Unnamed_a5af299d$1_0/a_n1431_n1483#" "multiplier_b353b9ed$1_0/a_n110_n1050#" 17.8291
+cap "Unnamed_a5af299d$1_0/a_n1431_n1483#" "multiplier_b353b9ed$1_0/a_n458_n1050#" 1.35125
+cap "multiplier_b353b9ed$1_0/a_238_n1050#" "Unnamed_a5af299d$1_0/a_n1431_n1483#" 4.21828
+cap "Unnamed_a5af299d$1_0/a_n1431_n1483#" "multiplier_b353b9ed$1_0/w_297_n1086#" 246.541
+cap "Unnamed_a5af299d$1_0/a_n1431_n1483#" "multiplier_b353b9ed$1_0/a_238_n1050#" 4.21828
+cap "Unnamed_a5af299d$1_0/a_n1431_n1483#" "multiplier_b353b9ed$1_0/a_n458_n1050#" 4.21828
+cap "multiplier_b353b9ed$1_0/a_15_n1050#" "multiplier_b353b9ed$1_0/w_297_n1086#" 57.5788
+cap "multiplier_b353b9ed$1_0/w_297_n1086#" "Unnamed_a5af299d$1_0/a_n1431_n1483#" 42.594
+cap "multiplier_b353b9ed$1_0/a_15_n1050#" "Unnamed_a5af299d$1_0/a_n1431_n1483#" 1.26905
+merge "multiplier_b353b9ed$1_0/a_n458_n1050#" "straight_route_3f9e4019_0/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "straight_route_3f9e4019_0/VSUBS" "Unnamed_a5af299d$1_0/VSUBS"
+merge "Unnamed_a5af299d$1_0/VSUBS" "multiplier_b353b9ed_0/a_n458_n1050#"
+merge "multiplier_b353b9ed_0/a_n458_n1050#" "rectangle_e6adcbbe_0/VSUBS"
+merge "rectangle_e6adcbbe_0/VSUBS" "straight_route_c25e2fa4_0/VSUBS"
+merge "straight_route_c25e2fa4_0/VSUBS" "straight_route_06f4c159_0/VSUBS"
+merge "straight_route_06f4c159_0/VSUBS" "VSUBS"
+merge "multiplier_b353b9ed$1_0/a_n110_n1050#" "straight_route_3f9e4019_0/m1_n665_1079#" -79.7716 0 0 0 0 0 0 0 0 0 0 399000 8780 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 290928 9080 287216 9384 0 0 0 0 0 0 0 0 0 0
+merge "straight_route_3f9e4019_0/m1_n665_1079#" "multiplier_b353b9ed_0/a_n110_n1050#"
+merge "multiplier_b353b9ed$1_0/a_n33_n1246#" "multiplier_b353b9ed_0/a_n33_n1246#" -914.761 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -264 0 0 0 0 0 0 0 0 0 0
+merge "multiplier_b353b9ed_0/a_n33_n1246#" "straight_route_c25e2fa4_0/m1_n726_n1246#"
+merge "multiplier_b353b9ed$1_0/w_297_n1086#" "multiplier_b353b9ed$1_0/w_n51_n1086#" -3987.79 0 0 0 0 -1329264 -27288 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "multiplier_b353b9ed$1_0/w_n51_n1086#" "multiplier_b353b9ed$1_0/w_n399_n1086#"
+merge "multiplier_b353b9ed$1_0/w_n399_n1086#" "multiplier_b353b9ed_0/w_297_n1086#"
+merge "multiplier_b353b9ed_0/w_297_n1086#" "multiplier_b353b9ed_0/w_n51_n1086#"
+merge "multiplier_b353b9ed_0/w_n51_n1086#" "multiplier_b353b9ed_0/w_n399_n1086#"
+merge "multiplier_b353b9ed_0/w_n399_n1086#" "rectangle_e6adcbbe_0/compass_9b7a7f39_0/w_n1493_n1545#"
+merge "multiplier_b353b9ed_0/a_15_n1050#" "straight_route_06f4c159_0/m1_n868_1238#" 40.3434 0 0 0 0 0 0 0 0 0 0 199500 4390 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 154968 4828 137072 4600 0 0 0 0 0 0 0 0 0 0

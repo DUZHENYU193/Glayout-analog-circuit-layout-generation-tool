@@ -1,0 +1,57 @@
+timestamp 1572014192
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use Unnamed_922c7248 Unnamed_922c7248_0 1 0 -1559 0 1 0
+use Unnamed_c7711c86 Unnamed_c7711c86_0 1 0 1559 0 1 0
+use route_quad_f82319c9 route_quad_f82319c9_0 1 0 0 0 1 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "Unnamed_922c7248_0/a_n695_n1050#" "Unnamed_c7711c86_0/w_n1299_n1525#" 4.55934
+cap "Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "route_quad_f82319c9_0/m1_n2159_n1246#" 197.028
+cap "Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "Unnamed_922c7248_0/a_n695_n1050#" -0.545874
+cap "Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 26.3539
+cap "Unnamed_922c7248_0/a_n695_n1050#" "route_quad_f82319c9_0/m1_n2159_n1246#" 20.1306
+cap "Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "route_quad_f82319c9_0/m1_n2159_n1246#" 0.0317245
+cap "Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "Unnamed_922c7248_0/a_n695_n1050#" 2.84559
+cap "Unnamed_922c7248_0/w_n1299_n1525#" "route_quad_f82319c9_0/m1_n2159_n1246#" 111.757
+cap "Unnamed_922c7248_0/a_n695_n1050#" "Unnamed_922c7248_0/w_n1299_n1525#" -3.38771
+cap "Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "Unnamed_c7711c86_0/w_n1299_n1525#" 7.11146
+cap "Unnamed_c7711c86_0/w_n1299_n1525#" "route_quad_f82319c9_0/m1_n2159_n1246#" 0.257845
+cap "Unnamed_922c7248_0/w_n1299_n1525#" "Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 7.11146
+cap "Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "Unnamed_c7711c86_0/a_n600_n1246#" 0.0317245
+cap "Unnamed_c7711c86_0/w_n1299_n1525#" "Unnamed_c7711c86_0/a_n600_n1246#" 111.757
+cap "Unnamed_922c7248_0/w_n1299_n1525#" "Unnamed_c7711c86_0/a_n695_n1050#" 4.55934
+cap "Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "Unnamed_c7711c86_0/a_n600_n1246#" 197.028
+cap "Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 26.3539
+cap "Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "Unnamed_c7711c86_0/a_n695_n1050#" 2.84559
+cap "Unnamed_c7711c86_0/w_n1299_n1525#" "Unnamed_c7711c86_0/a_n695_n1050#" -3.38771
+cap "Unnamed_c7711c86_0/a_n695_n1050#" "Unnamed_c7711c86_0/a_n600_n1246#" 20.1306
+cap "Unnamed_922c7248_0/w_n1299_n1525#" "Unnamed_c7711c86_0/a_n600_n1246#" 0.257845
+cap "Unnamed_c7711c86_0/a_n695_n1050#" "Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" -0.545874
+cap "Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "Unnamed_922c7248_0/a_n570_n1050#" 0.0455911
+cap "Unnamed_c7711c86_0/w_n1299_n1525#" "Unnamed_922c7248_0/a_n695_n1050#" 6.84732
+cap "Unnamed_922c7248_0/a_n695_n1050#" "Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 3.72539
+cap "Unnamed_c7711c86_0/w_n1299_n1525#" "Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 7.05503
+cap "Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 26.9262
+cap "Unnamed_c7711c86_0/w_n1299_n1525#" "Unnamed_922c7248_0/a_n570_n1050#" 0.479109
+cap "Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "Unnamed_c7711c86_0/a_n570_n1050#" 0.0455911
+cap "Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "Unnamed_922c7248_0/w_n1299_n1525#" 7.05503
+cap "Unnamed_c7711c86_0/a_n570_n1050#" "Unnamed_922c7248_0/w_n1299_n1525#" 0.479109
+cap "Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "Unnamed_c7711c86_0/a_n695_n1050#" 3.72539
+cap "Unnamed_c7711c86_0/a_n695_n1050#" "Unnamed_922c7248_0/w_n1299_n1525#" 6.84732
+cap "Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 26.9262
+cap "Unnamed_c7711c86_0/w_n1299_n1525#" "Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 0.911001
+cap "Unnamed_c7711c86_0/w_n1299_n1525#" "Unnamed_922c7248_0/a_n570_n1050#" 0.589672
+cap "Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 3.56696
+cap "Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "Unnamed_922c7248_0/a_n570_n1050#" 0.0561121
+cap "Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 3.56696
+cap "Unnamed_922c7248_0/w_n1299_n1525#" "Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 0.911001
+cap "Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "Unnamed_c7711c86_0/a_n570_n1050#" 0.0561121
+cap "Unnamed_922c7248_0/w_n1299_n1525#" "Unnamed_c7711c86_0/a_n570_n1050#" 0.589672
+merge "Unnamed_c7711c86_0/VSUBS" "route_quad_f82319c9_0/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "route_quad_f82319c9_0/VSUBS" "Unnamed_922c7248_0/VSUBS"
+merge "Unnamed_922c7248_0/VSUBS" "VSUBS"
+merge "route_quad_f82319c9_0/m1_n2159_n1246#" "Unnamed_c7711c86_0/a_n600_n1246#" -1527.93 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -158400 -5064 0 0 0 0 0 0 0 0 0 0
+merge "Unnamed_c7711c86_0/a_n600_n1246#" "Unnamed_922c7248_0/a_n600_n1246#"

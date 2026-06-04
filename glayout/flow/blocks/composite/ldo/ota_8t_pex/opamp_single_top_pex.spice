@@ -1,0 +1,381 @@
+* NGSPICE file created from opamp_single_top.ext - technology: sky130A
+
+.subckt Unnamed_c7711c86 a_n695_n1050# a_n570_n1050# w_n1299_n1525# a_823_n1050# a_n600_n1246#
++ VSUBS
+X0 a_n570_n1050# a_n600_n1246# a_n695_n1050# w_n1299_n1525# sky130_fd_pr__pfet_01v8 ad=2.625 pd=11 as=2.625 ps=11 w=10.5 l=0.15
+X1 a_823_n1050# a_823_n1050# a_823_n1050# w_n1299_n1525# sky130_fd_pr__pfet_01v8 ad=4.9875 pd=21.95 as=19.95 ps=87.8 w=10.5 l=0.15
+X2 a_n695_n1050# a_n600_n1246# a_n570_n1050# w_n1299_n1525# sky130_fd_pr__pfet_01v8 ad=2.625 pd=11 as=2.625 ps=11 w=10.5 l=0.15
+X3 a_n695_n1050# a_n600_n1246# a_n570_n1050# w_n1299_n1525# sky130_fd_pr__pfet_01v8 ad=2.625 pd=11 as=2.625 ps=11 w=10.5 l=0.15
+X4 a_n570_n1050# a_n600_n1246# a_n695_n1050# w_n1299_n1525# sky130_fd_pr__pfet_01v8 ad=2.625 pd=11 as=2.625 ps=11 w=10.5 l=0.15
+X5 a_n695_n1050# a_n600_n1246# a_n570_n1050# w_n1299_n1525# sky130_fd_pr__pfet_01v8 ad=2.625 pd=11 as=2.625 ps=11 w=10.5 l=0.15
+X6 a_n695_n1050# a_n600_n1246# a_n570_n1050# w_n1299_n1525# sky130_fd_pr__pfet_01v8 ad=2.625 pd=11 as=2.625 ps=11 w=10.5 l=0.15
+X7 a_823_n1050# a_823_n1050# a_823_n1050# w_n1299_n1525# sky130_fd_pr__pfet_01v8 ad=4.9875 pd=21.95 as=0 ps=0 w=10.5 l=0.15
+X8 a_n570_n1050# a_n600_n1246# a_n695_n1050# w_n1299_n1525# sky130_fd_pr__pfet_01v8 ad=2.625 pd=11 as=4.9875 ps=21.95 w=10.5 l=0.15
+X9 a_n570_n1050# a_n600_n1246# a_n695_n1050# w_n1299_n1525# sky130_fd_pr__pfet_01v8 ad=2.625 pd=11 as=2.625 ps=11 w=10.5 l=0.15
+X10 a_n695_n1050# a_n600_n1246# a_n570_n1050# w_n1299_n1525# sky130_fd_pr__pfet_01v8 ad=4.9875 pd=21.95 as=2.625 ps=11 w=10.5 l=0.15
+X11 a_n570_n1050# a_n600_n1246# a_n695_n1050# w_n1299_n1525# sky130_fd_pr__pfet_01v8 ad=2.625 pd=11 as=2.625 ps=11 w=10.5 l=0.15
+C0 w_n1299_n1525# a_823_n1050# 2.0927f
+C1 a_n570_n1050# w_n1299_n1525# 0.44297f
+C2 a_n600_n1246# a_n695_n1050# 1.55872f
+C3 a_823_n1050# a_n695_n1050# 1.01739f
+C4 a_n600_n1246# a_823_n1050# 0.25724f
+C5 a_n570_n1050# a_n695_n1050# 15.9563f
+C6 a_n570_n1050# a_n600_n1246# 1.51632f
+C7 a_n570_n1050# a_823_n1050# 0.32336f
+C8 w_n1299_n1525# a_n695_n1050# 0.76101f
+C9 a_n600_n1246# w_n1299_n1525# 1.72419f
+C10 a_n570_n1050# VSUBS 0.25874f
+C11 a_n695_n1050# VSUBS 0.39485f
+C12 a_n600_n1246# VSUBS 0.52058f
+C13 w_n1299_n1525# VSUBS 23.7717f
+C14 a_823_n1050# VSUBS 2.56983f
+.ends
+
+.subckt Unnamed_922c7248 a_n695_n1050# a_n570_n1050# w_n1299_n1525# a_823_n1050# a_n600_n1246#
++ VSUBS
+X0 a_n570_n1050# a_n600_n1246# a_n695_n1050# w_n1299_n1525# sky130_fd_pr__pfet_01v8 ad=2.625 pd=11 as=2.625 ps=11 w=10.5 l=0.15
+X1 a_823_n1050# a_823_n1050# a_823_n1050# w_n1299_n1525# sky130_fd_pr__pfet_01v8 ad=4.9875 pd=21.95 as=19.95 ps=87.8 w=10.5 l=0.15
+X2 a_n695_n1050# a_n600_n1246# a_n570_n1050# w_n1299_n1525# sky130_fd_pr__pfet_01v8 ad=2.625 pd=11 as=2.625 ps=11 w=10.5 l=0.15
+X3 a_n695_n1050# a_n600_n1246# a_n570_n1050# w_n1299_n1525# sky130_fd_pr__pfet_01v8 ad=2.625 pd=11 as=2.625 ps=11 w=10.5 l=0.15
+X4 a_n570_n1050# a_n600_n1246# a_n695_n1050# w_n1299_n1525# sky130_fd_pr__pfet_01v8 ad=2.625 pd=11 as=2.625 ps=11 w=10.5 l=0.15
+X5 a_n695_n1050# a_n600_n1246# a_n570_n1050# w_n1299_n1525# sky130_fd_pr__pfet_01v8 ad=2.625 pd=11 as=2.625 ps=11 w=10.5 l=0.15
+X6 a_n695_n1050# a_n600_n1246# a_n570_n1050# w_n1299_n1525# sky130_fd_pr__pfet_01v8 ad=2.625 pd=11 as=2.625 ps=11 w=10.5 l=0.15
+X7 a_823_n1050# a_823_n1050# a_823_n1050# w_n1299_n1525# sky130_fd_pr__pfet_01v8 ad=4.9875 pd=21.95 as=0 ps=0 w=10.5 l=0.15
+X8 a_n570_n1050# a_n600_n1246# a_n695_n1050# w_n1299_n1525# sky130_fd_pr__pfet_01v8 ad=2.625 pd=11 as=4.9875 ps=21.95 w=10.5 l=0.15
+X9 a_n570_n1050# a_n600_n1246# a_n695_n1050# w_n1299_n1525# sky130_fd_pr__pfet_01v8 ad=2.625 pd=11 as=2.625 ps=11 w=10.5 l=0.15
+X10 a_n695_n1050# a_n600_n1246# a_n570_n1050# w_n1299_n1525# sky130_fd_pr__pfet_01v8 ad=4.9875 pd=21.95 as=2.625 ps=11 w=10.5 l=0.15
+X11 a_n570_n1050# a_n600_n1246# a_n695_n1050# w_n1299_n1525# sky130_fd_pr__pfet_01v8 ad=2.625 pd=11 as=2.625 ps=11 w=10.5 l=0.15
+C0 a_823_n1050# a_n695_n1050# 1.01739f
+C1 a_n600_n1246# a_823_n1050# 0.25724f
+C2 a_n570_n1050# a_823_n1050# 0.32336f
+C3 a_n600_n1246# a_n695_n1050# 1.55872f
+C4 a_n570_n1050# a_n695_n1050# 15.9563f
+C5 w_n1299_n1525# a_823_n1050# 2.0927f
+C6 w_n1299_n1525# a_n695_n1050# 0.76101f
+C7 a_n570_n1050# a_n600_n1246# 1.51632f
+C8 w_n1299_n1525# a_n600_n1246# 1.72419f
+C9 w_n1299_n1525# a_n570_n1050# 0.44297f
+C10 a_n570_n1050# VSUBS 0.25874f
+C11 a_n695_n1050# VSUBS 0.39485f
+C12 a_n600_n1246# VSUBS 0.52058f
+C13 w_n1299_n1525# VSUBS 23.7717f
+C14 a_823_n1050# VSUBS 2.56983f
+.ends
+
+.subckt x2_multiplier_shared_gate_comps Unnamed_922c7248_0/a_n695_n1050# Unnamed_922c7248_0/a_n570_n1050#
++ Unnamed_c7711c86_0/a_n695_n1050# Unnamed_c7711c86_0/a_n570_n1050# Unnamed_c7711c86_0/a_n600_n1246#
++ Unnamed_c7711c86_0/w_n1299_n1525# Unnamed_922c7248_0/a_823_n1050# Unnamed_c7711c86_0/a_823_n1050#
++ VSUBS Unnamed_922c7248_0/w_n1299_n1525#
+XUnnamed_c7711c86_0 Unnamed_c7711c86_0/a_n695_n1050# Unnamed_c7711c86_0/a_n570_n1050#
++ Unnamed_c7711c86_0/w_n1299_n1525# Unnamed_c7711c86_0/a_823_n1050# Unnamed_c7711c86_0/a_n600_n1246#
++ VSUBS Unnamed_c7711c86
+XUnnamed_922c7248_0 Unnamed_922c7248_0/a_n695_n1050# Unnamed_922c7248_0/a_n570_n1050#
++ Unnamed_922c7248_0/w_n1299_n1525# Unnamed_922c7248_0/a_823_n1050# Unnamed_c7711c86_0/a_n600_n1246#
++ VSUBS Unnamed_922c7248
+C0 Unnamed_c7711c86_0/a_n600_n1246# Unnamed_922c7248_0/a_n695_n1050# 0.02013f
+C1 Unnamed_922c7248_0/w_n1299_n1525# Unnamed_c7711c86_0/a_n695_n1050# 0.01141f
+C2 Unnamed_c7711c86_0/a_n695_n1050# Unnamed_c7711c86_0/a_n600_n1246# 0.02013f
+C3 Unnamed_922c7248_0/w_n1299_n1525# Unnamed_c7711c86_0/a_823_n1050# 0.01508f
+C4 Unnamed_c7711c86_0/w_n1299_n1525# Unnamed_c7711c86_0/a_n600_n1246# 0.11201f
+C5 Unnamed_c7711c86_0/a_n600_n1246# Unnamed_c7711c86_0/a_823_n1050# 0.19706f
+C6 Unnamed_c7711c86_0/w_n1299_n1525# Unnamed_922c7248_0/a_n695_n1050# 0.01141f
+C7 Unnamed_922c7248_0/a_823_n1050# Unnamed_c7711c86_0/a_n600_n1246# 0.19706f
+C8 Unnamed_922c7248_0/a_823_n1050# Unnamed_c7711c86_0/w_n1299_n1525# 0.01508f
+C9 Unnamed_922c7248_0/a_823_n1050# Unnamed_c7711c86_0/a_823_n1050# 0.11369f
+C10 Unnamed_922c7248_0/w_n1299_n1525# Unnamed_c7711c86_0/a_n600_n1246# 0.11201f
+C11 Unnamed_922c7248_0/a_n570_n1050# VSUBS 0.25874f
+C12 Unnamed_922c7248_0/a_n695_n1050# VSUBS 0.39485f
+C13 Unnamed_922c7248_0/w_n1299_n1525# VSUBS 23.7717f
+C14 Unnamed_922c7248_0/a_823_n1050# VSUBS 2.56983f
+C15 Unnamed_c7711c86_0/a_n570_n1050# VSUBS 0.25874f
+C16 Unnamed_c7711c86_0/a_n695_n1050# VSUBS 0.39485f
+C17 Unnamed_c7711c86_0/a_n600_n1246# VSUBS 1.4755f
+C18 Unnamed_c7711c86_0/w_n1299_n1525# VSUBS 23.7717f
+C19 Unnamed_c7711c86_0/a_823_n1050# VSUBS 2.56983f
+.ends
+
+.subckt shared_gate_components 2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/w_n1299_n1525#
++ 2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/w_n1299_n1525# via_stack_daa6e7a5_0/m1_n43_n43#
++ 2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/w_n1299_n1525# 2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/w_n1299_n1525#
++ 2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_823_n1050# c_route_90a1c5ed_0/m1_n609_n4608#
++ multiplier_5999f575_0/a_433_n1050# c_route_297e2d02_0/m1_2159_n4324# 2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/a_823_n1050#
++ VSUBS
+X2_multiplier_shared_gate_comps_0 VSUBS c_route_90a1c5ed_0/m1_n609_n4608# c_route_297e2d02_0/m1_2159_n4324#
++ VSUBS c_route_297e2d02_0/m1_2159_n4324# 2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/w_n1299_n1525#
++ VSUBS multiplier_5999f575_0/a_433_n1050# VSUBS 2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/w_n1299_n1525#
++ x2_multiplier_shared_gate_comps
+X2_multiplier_shared_gate_comps_1 c_route_297e2d02_0/m1_2159_n4324# VSUBS VSUBS c_route_90a1c5ed_0/m1_n609_n4608#
++ c_route_297e2d02_0/m1_2159_n4324# 2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/w_n1299_n1525#
++ 2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_823_n1050# 2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/a_823_n1050#
++ VSUBS 2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/w_n1299_n1525# x2_multiplier_shared_gate_comps
+C0 c_route_297e2d02_0/m1_2159_n4324# multiplier_22e959f4_0/w_n246_n1086# 0.02359f
+C1 multiplier_22e959f4_1/w_14_n1086# c_route_297e2d02_0/m1_2159_n4324# 0.03133f
+C2 multiplier_5999f575_0/w_14_n1086# c_route_297e2d02_0/m1_2159_n4324# 0.03194f
+C3 c_route_297e2d02_0/m1_2159_n4324# multiplier_5999f575_0/a_433_n1050# 0.31076f
+C4 via_stack_daa6e7a5_0/m1_n43_n43# 2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_823_n1050# 0.03248f
+C5 c_route_90a1c5ed_0/m1_n609_n4608# 2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/w_n1299_n1525# 0.05144f
+C6 c_route_297e2d02_0/m1_2159_n4324# 2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_823_n1050# 0.38247f
+C7 2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/a_823_n1050# c_route_90a1c5ed_0/m1_n609_n4608# 0.16727f
+C8 multiplier_a07f7352_0/w_144_n1086# c_route_297e2d02_0/m1_2159_n4324# 0.02493f
+C9 c_route_297e2d02_0/m1_2159_n4324# c_route_90a1c5ed_0/m1_n609_n4608# 2.49118f
+C10 multiplier_22e959f4_0/w_14_n1086# c_route_297e2d02_0/m1_2159_n4324# 0.03133f
+C11 c_route_297e2d02_0/m1_2159_n4324# multiplier_22e959f4_0/w_n116_n1086# 0.03133f
+C12 c_route_297e2d02_0/m1_2159_n4324# 2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/w_n1299_n1525# 0.26248f
+C13 2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/w_n1299_n1525# c_route_297e2d02_0/m1_2159_n4324# 0.14749f
+C14 multiplier_5999f575_0/w_n246_n1086# c_route_297e2d02_0/m1_2159_n4324# 0.02493f
+C15 via_stack_daa6e7a5_0/m1_n43_n43# 2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/w_n1299_n1525# 0.03168f
+C16 c_route_297e2d02_0/m1_2159_n4324# 2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/w_n1299_n1525# 0.22555f
+C17 c_route_90a1c5ed_0/m1_n609_n4608# multiplier_5999f575_0/a_433_n1050# 0.73683f
+C18 c_route_297e2d02_0/m1_2159_n4324# multiplier_5999f575_0/w_n116_n1086# 0.03133f
+C19 c_route_297e2d02_0/m1_2159_n4324# multiplier_a07f7352_0/w_14_n1086# 0.03133f
+C20 c_route_297e2d02_0/m1_2159_n4324# multiplier_22e959f4_1/w_n246_n1086# 0.02493f
+C21 c_route_297e2d02_0/m1_2159_n4324# multiplier_a07f7352_0/w_n116_n1086# 0.03194f
+C22 c_route_297e2d02_0/m1_2159_n4324# multiplier_22e959f4_1/w_144_n1086# 0.02359f
+C23 multiplier_5999f575_0/w_144_n1086# c_route_297e2d02_0/m1_2159_n4324# 0.02391f
+C24 via_stack_daa6e7a5_0/m1_n43_n43# 2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/w_n1299_n1525# 0.03168f
+C25 c_route_297e2d02_0/m1_2159_n4324# 2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/w_n1299_n1525# 0.12032f
+C26 via_stack_daa6e7a5_0/m1_n43_n43# 2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/a_823_n1050# 0.03248f
+C27 multiplier_a07f7352_0/w_n246_n1086# c_route_297e2d02_0/m1_2159_n4324# 0.02391f
+C28 c_route_90a1c5ed_0/m1_n609_n4608# 2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/w_n1299_n1525# 0.21456f
+C29 2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/w_n1299_n1525# c_route_90a1c5ed_0/m1_n609_n4608# 0.35417f
+C30 2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/a_823_n1050# c_route_297e2d02_0/m1_2159_n4324# 0.20326f
+C31 multiplier_22e959f4_1/w_n116_n1086# c_route_297e2d02_0/m1_2159_n4324# 0.03133f
+C32 via_stack_daa6e7a5_0/m1_n43_n43# c_route_297e2d02_0/m1_2159_n4324# 2.6121f
+C33 c_route_297e2d02_0/m1_2159_n4324# multiplier_22e959f4_0/w_144_n1086# 0.02493f
+C34 2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/w_n1299_n1525# VSUBS 23.86122f
+C35 2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_823_n1050# VSUBS 2.78294f
+C36 2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/w_n1299_n1525# VSUBS 23.90433f
+C37 2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/a_823_n1050# VSUBS 2.79075f
+C38 c_route_90a1c5ed_0/m1_n609_n4608# VSUBS 14.30347f
+C39 2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/w_n1299_n1525# VSUBS 24.09676f
+C40 c_route_297e2d02_0/m1_2159_n4324# VSUBS 23.59527f
+C41 2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/w_n1299_n1525# VSUBS 24.00753f
+C42 multiplier_5999f575_0/a_433_n1050# VSUBS 2.87918f
+C43 multiplier_a07f7352_0/w_144_n1086# VSUBS 0.66729f $ **FLOATING
+C44 multiplier_a07f7352_0/w_14_n1086# VSUBS 0.66716f $ **FLOATING
+C45 multiplier_a07f7352_0/w_n116_n1086# VSUBS 0.66731f $ **FLOATING
+C46 multiplier_a07f7352_0/w_n246_n1086# VSUBS 0.66821f $ **FLOATING
+C47 multiplier_a07f7352_0/w_n594_n1086# VSUBS 0.69359f $ **FLOATING
+C48 multiplier_5999f575_0/w_492_n1086# VSUBS 0.69359f $ **FLOATING
+C49 multiplier_5999f575_0/w_144_n1086# VSUBS 0.66821f $ **FLOATING
+C50 multiplier_5999f575_0/w_14_n1086# VSUBS 0.66731f $ **FLOATING
+C51 multiplier_5999f575_0/w_n116_n1086# VSUBS 0.66716f $ **FLOATING
+C52 multiplier_5999f575_0/w_n246_n1086# VSUBS 0.66729f $ **FLOATING
+C53 multiplier_22e959f4_1/w_144_n1086# VSUBS 0.66692f $ **FLOATING
+C54 multiplier_22e959f4_1/w_14_n1086# VSUBS 0.66695f $ **FLOATING
+C55 multiplier_22e959f4_1/w_n116_n1086# VSUBS 0.66722f $ **FLOATING
+C56 multiplier_22e959f4_1/w_n246_n1086# VSUBS 0.66741f $ **FLOATING
+C57 multiplier_22e959f4_0/w_144_n1086# VSUBS 0.66723f $ **FLOATING
+C58 multiplier_22e959f4_0/w_14_n1086# VSUBS 0.66699f $ **FLOATING
+C59 multiplier_22e959f4_0/w_n116_n1086# VSUBS 0.66695f $ **FLOATING
+C60 multiplier_22e959f4_0/w_n246_n1086# VSUBS 0.66692f $ **FLOATING
+C61 via_stack_daa6e7a5_0/m1_n43_n43# VSUBS 27.54983f
+.ends
+
+.subckt diff_pair_5f8ec16b a_n1329_397# a_n1359_201# a_n1359_n2547# a_n1454_n2497#
++ a_n1329_n2497# a_n2146_n3104#
+X0 a_n1454_n2497# a_n1359_n2547# a_n1329_n2497# a_n2146_n3104# sky130_fd_pr__nfet_01v8 ad=4.9875 pd=21.95 as=2.625 ps=11 w=10.5 l=0.15
+X1 a_n2146_n3104# a_n2146_n3104# a_n2146_n3104# a_n2146_n3104# sky130_fd_pr__nfet_01v8 ad=4.9875 pd=21.95 as=39.9 ps=175.60001 w=10.5 l=0.15
+X2 a_n1454_n2497# a_n1359_201# a_n1329_397# a_n2146_n3104# sky130_fd_pr__nfet_01v8 ad=2.625 pd=11 as=2.625 ps=11 w=10.5 l=0.15
+X3 a_n2146_n3104# a_n2146_n3104# a_n2146_n3104# a_n2146_n3104# sky130_fd_pr__nfet_01v8 ad=4.9875 pd=21.95 as=0 ps=0 w=10.5 l=0.15
+X4 a_n1329_397# a_n1359_201# a_n1454_n2497# a_n2146_n3104# sky130_fd_pr__nfet_01v8 ad=2.625 pd=11 as=2.625 ps=11 w=10.5 l=0.15
+X5 a_n1329_397# a_n1359_201# a_n1454_n2497# a_n2146_n3104# sky130_fd_pr__nfet_01v8 ad=2.625 pd=11 as=2.625 ps=11 w=10.5 l=0.15
+X6 a_n1454_n2497# a_n1359_201# a_n1329_397# a_n2146_n3104# sky130_fd_pr__nfet_01v8 ad=2.625 pd=11 as=2.625 ps=11 w=10.5 l=0.15
+X7 a_n1454_n2497# a_n1359_201# a_n1329_397# a_n2146_n3104# sky130_fd_pr__nfet_01v8 ad=2.625 pd=11 as=2.625 ps=11 w=10.5 l=0.15
+X8 a_n2146_n3104# a_n2146_n3104# a_n2146_n3104# a_n2146_n3104# sky130_fd_pr__nfet_01v8 ad=4.9875 pd=21.95 as=0 ps=0 w=10.5 l=0.15
+X9 a_n1329_397# a_n1359_201# a_n1454_n2497# a_n2146_n3104# sky130_fd_pr__nfet_01v8 ad=2.625 pd=11 as=2.625 ps=11 w=10.5 l=0.15
+X10 a_n1454_n2497# a_n1359_n2547# a_n1329_n2497# a_n2146_n3104# sky130_fd_pr__nfet_01v8 ad=2.625 pd=11 as=2.625 ps=11 w=10.5 l=0.15
+X11 a_n1454_n2497# a_n1359_n2547# a_n1329_n2497# a_n2146_n3104# sky130_fd_pr__nfet_01v8 ad=2.625 pd=11 as=2.625 ps=11 w=10.5 l=0.15
+X12 a_n1329_397# a_n1359_201# a_n1454_n2497# a_n2146_n3104# sky130_fd_pr__nfet_01v8 ad=2.625 pd=11 as=4.9875 ps=21.95 w=10.5 l=0.15
+X13 a_n1329_397# a_n1359_201# a_n1454_n2497# a_n2146_n3104# sky130_fd_pr__nfet_01v8 ad=2.625 pd=11 as=2.625 ps=11 w=10.5 l=0.15
+X14 a_n1454_n2497# a_n1359_n2547# a_n1329_n2497# a_n2146_n3104# sky130_fd_pr__nfet_01v8 ad=2.625 pd=11 as=2.625 ps=11 w=10.5 l=0.15
+X15 a_n1329_n2497# a_n1359_n2547# a_n1454_n2497# a_n2146_n3104# sky130_fd_pr__nfet_01v8 ad=2.625 pd=11 as=2.625 ps=11 w=10.5 l=0.15
+X16 a_n2146_n3104# a_n2146_n3104# a_n2146_n3104# a_n2146_n3104# sky130_fd_pr__nfet_01v8 ad=4.9875 pd=21.95 as=0 ps=0 w=10.5 l=0.15
+X17 a_n1329_n2497# a_n1359_n2547# a_n1454_n2497# a_n2146_n3104# sky130_fd_pr__nfet_01v8 ad=2.625 pd=11 as=4.9875 ps=21.95 w=10.5 l=0.15
+X18 a_n1329_n2497# a_n1359_n2547# a_n1454_n2497# a_n2146_n3104# sky130_fd_pr__nfet_01v8 ad=2.625 pd=11 as=2.625 ps=11 w=10.5 l=0.15
+X19 a_n1329_n2497# a_n1359_n2547# a_n1454_n2497# a_n2146_n3104# sky130_fd_pr__nfet_01v8 ad=2.625 pd=11 as=2.625 ps=11 w=10.5 l=0.15
+X20 a_n1329_n2497# a_n1359_n2547# a_n1454_n2497# a_n2146_n3104# sky130_fd_pr__nfet_01v8 ad=2.625 pd=11 as=4.9875 ps=21.95 w=10.5 l=0.15
+X21 a_n1454_n2497# a_n1359_201# a_n1329_397# a_n2146_n3104# sky130_fd_pr__nfet_01v8 ad=2.625 pd=11 as=2.625 ps=11 w=10.5 l=0.15
+X22 a_n1454_n2497# a_n1359_n2547# a_n1329_n2497# a_n2146_n3104# sky130_fd_pr__nfet_01v8 ad=2.625 pd=11 as=2.625 ps=11 w=10.5 l=0.15
+X23 a_n1329_n2497# a_n1359_n2547# a_n1454_n2497# a_n2146_n3104# sky130_fd_pr__nfet_01v8 ad=2.625 pd=11 as=2.625 ps=11 w=10.5 l=0.15
+X24 a_n1454_n2497# a_n1359_n2547# a_n1329_n2497# a_n2146_n3104# sky130_fd_pr__nfet_01v8 ad=2.625 pd=11 as=2.625 ps=11 w=10.5 l=0.15
+X25 a_n1329_397# a_n1359_201# a_n1454_n2497# a_n2146_n3104# sky130_fd_pr__nfet_01v8 ad=2.625 pd=11 as=2.625 ps=11 w=10.5 l=0.15
+X26 a_n1454_n2497# a_n1359_201# a_n1329_397# a_n2146_n3104# sky130_fd_pr__nfet_01v8 ad=4.9875 pd=21.95 as=2.625 ps=11 w=10.5 l=0.15
+X27 a_n1329_n2497# a_n1359_n2547# a_n1454_n2497# a_n2146_n3104# sky130_fd_pr__nfet_01v8 ad=2.625 pd=11 as=2.625 ps=11 w=10.5 l=0.15
+X28 a_n1329_n2497# a_n1359_n2547# a_n1454_n2497# a_n2146_n3104# sky130_fd_pr__nfet_01v8 ad=2.625 pd=11 as=2.625 ps=11 w=10.5 l=0.15
+X29 a_n1454_n2497# a_n1359_n2547# a_n1329_n2497# a_n2146_n3104# sky130_fd_pr__nfet_01v8 ad=2.625 pd=11 as=2.625 ps=11 w=10.5 l=0.15
+X30 a_n1454_n2497# a_n1359_n2547# a_n1329_n2497# a_n2146_n3104# sky130_fd_pr__nfet_01v8 ad=2.625 pd=11 as=2.625 ps=11 w=10.5 l=0.15
+X31 a_n1329_397# a_n1359_201# a_n1454_n2497# a_n2146_n3104# sky130_fd_pr__nfet_01v8 ad=2.625 pd=11 as=2.625 ps=11 w=10.5 l=0.15
+X32 a_n1454_n2497# a_n1359_n2547# a_n1329_n2497# a_n2146_n3104# sky130_fd_pr__nfet_01v8 ad=2.625 pd=11 as=2.625 ps=11 w=10.5 l=0.15
+X33 a_n1329_397# a_n1359_201# a_n1454_n2497# a_n2146_n3104# sky130_fd_pr__nfet_01v8 ad=2.625 pd=11 as=4.9875 ps=21.95 w=10.5 l=0.15
+X34 a_n1454_n2497# a_n1359_201# a_n1329_397# a_n2146_n3104# sky130_fd_pr__nfet_01v8 ad=2.625 pd=11 as=2.625 ps=11 w=10.5 l=0.15
+X35 a_n1454_n2497# a_n1359_201# a_n1329_397# a_n2146_n3104# sky130_fd_pr__nfet_01v8 ad=2.625 pd=11 as=2.625 ps=11 w=10.5 l=0.15
+X36 a_n1454_n2497# a_n1359_n2547# a_n1329_n2497# a_n2146_n3104# sky130_fd_pr__nfet_01v8 ad=4.9875 pd=21.95 as=2.625 ps=11 w=10.5 l=0.15
+X37 a_n1329_n2497# a_n1359_n2547# a_n1454_n2497# a_n2146_n3104# sky130_fd_pr__nfet_01v8 ad=2.625 pd=11 as=2.625 ps=11 w=10.5 l=0.15
+X38 a_n1454_n2497# a_n1359_201# a_n1329_397# a_n2146_n3104# sky130_fd_pr__nfet_01v8 ad=4.9875 pd=21.95 as=2.625 ps=11 w=10.5 l=0.15
+X39 a_n1454_n2497# a_n1359_201# a_n1329_397# a_n2146_n3104# sky130_fd_pr__nfet_01v8 ad=2.625 pd=11 as=2.625 ps=11 w=10.5 l=0.15
+X40 a_n1329_397# a_n1359_201# a_n1454_n2497# a_n2146_n3104# sky130_fd_pr__nfet_01v8 ad=2.625 pd=11 as=2.625 ps=11 w=10.5 l=0.15
+X41 a_n1329_397# a_n1359_201# a_n1454_n2497# a_n2146_n3104# sky130_fd_pr__nfet_01v8 ad=2.625 pd=11 as=2.625 ps=11 w=10.5 l=0.15
+X42 a_n1329_n2497# a_n1359_n2547# a_n1454_n2497# a_n2146_n3104# sky130_fd_pr__nfet_01v8 ad=2.625 pd=11 as=2.625 ps=11 w=10.5 l=0.15
+X43 a_n1454_n2497# a_n1359_201# a_n1329_397# a_n2146_n3104# sky130_fd_pr__nfet_01v8 ad=2.625 pd=11 as=2.625 ps=11 w=10.5 l=0.15
+C0 a_n1359_201# a_n1359_n2547# 5.65966f
+C1 a_n1329_n2497# a_n1359_201# 0.40698f
+C2 a_n1359_201# a_n1454_n2497# 3.46133f
+C3 a_n1359_n2547# a_n1329_397# 0.19533f
+C4 a_n1329_n2497# a_n1329_397# 1.2131f
+C5 a_n1454_n2497# a_n1329_397# 34.9908f
+C6 a_n1329_n2497# a_n1359_n2547# 4.01637f
+C7 a_n1359_201# a_n1329_397# 4.2285f
+C8 a_n1454_n2497# a_n1359_n2547# 3.44864f
+C9 a_n1329_n2497# a_n1454_n2497# 35.0278f
+C10 a_n1329_n2497# a_n2146_n3104# 4.31255f
+C11 a_n1329_397# a_n2146_n3104# 4.24373f
+C12 a_n1454_n2497# a_n2146_n3104# 8.79718f
+C13 a_n1359_n2547# a_n2146_n3104# 7.76928f
+C14 a_n1359_201# a_n2146_n3104# 7.63831f
+.ends
+
+.subckt transformed_dc59b6dd a_n1789_n882# a_n1461_n882# a_n1914_n882# VSUBS
+X0 VSUBS VSUBS VSUBS VSUBS sky130_fd_pr__nfet_01v8 ad=2.9925 pd=13.55 as=11.97 ps=54.2 w=6.3 l=0.15
+X1 a_n1461_n882# a_n1789_n882# a_n1914_n882# VSUBS sky130_fd_pr__nfet_01v8 ad=2.9925 pd=13.55 as=2.9925 ps=13.55 w=6.3 l=0.15
+X2 a_n1789_n882# a_n1789_n882# a_n1914_n882# VSUBS sky130_fd_pr__nfet_01v8 ad=2.9925 pd=13.55 as=2.9925 ps=13.55 w=6.3 l=0.15
+X3 a_n1461_n882# a_n1789_n882# a_n1914_n882# VSUBS sky130_fd_pr__nfet_01v8 ad=2.9925 pd=13.55 as=2.9925 ps=13.55 w=6.3 l=0.15
+X4 a_n1789_n882# a_n1789_n882# a_n1914_n882# VSUBS sky130_fd_pr__nfet_01v8 ad=2.9925 pd=13.55 as=2.9925 ps=13.55 w=6.3 l=0.15
+X5 a_n1461_n882# a_n1789_n882# a_n1914_n882# VSUBS sky130_fd_pr__nfet_01v8 ad=2.9925 pd=13.55 as=2.9925 ps=13.55 w=6.3 l=0.15
+X6 a_n1461_n882# a_n1789_n882# a_n1914_n882# VSUBS sky130_fd_pr__nfet_01v8 ad=2.9925 pd=13.55 as=2.9925 ps=13.55 w=6.3 l=0.15
+X7 a_n1789_n882# a_n1789_n882# a_n1914_n882# VSUBS sky130_fd_pr__nfet_01v8 ad=2.9925 pd=13.55 as=2.9925 ps=13.55 w=6.3 l=0.15
+X8 a_n1789_n882# a_n1789_n882# a_n1914_n882# VSUBS sky130_fd_pr__nfet_01v8 ad=2.9925 pd=13.55 as=2.9925 ps=13.55 w=6.3 l=0.15
+X9 a_n1461_n882# a_n1789_n882# a_n1914_n882# VSUBS sky130_fd_pr__nfet_01v8 ad=2.9925 pd=13.55 as=2.9925 ps=13.55 w=6.3 l=0.15
+X10 a_n1789_n882# a_n1789_n882# a_n1914_n882# VSUBS sky130_fd_pr__nfet_01v8 ad=2.9925 pd=13.55 as=2.9925 ps=13.55 w=6.3 l=0.15
+X11 VSUBS VSUBS VSUBS VSUBS sky130_fd_pr__nfet_01v8 ad=2.9925 pd=13.55 as=0 ps=0 w=6.3 l=0.15
+X12 a_n1461_n882# a_n1789_n882# a_n1914_n882# VSUBS sky130_fd_pr__nfet_01v8 ad=2.9925 pd=13.55 as=2.9925 ps=13.55 w=6.3 l=0.15
+X13 a_n1789_n882# a_n1789_n882# a_n1914_n882# VSUBS sky130_fd_pr__nfet_01v8 ad=2.9925 pd=13.55 as=2.9925 ps=13.55 w=6.3 l=0.15
+C0 a_n1914_n882# VSUBS 1.04774f
+C1 a_n1461_n882# VSUBS 1.12141f
+C2 a_n1461_n882# a_n1914_n882# 12.36918f
+C3 a_n1789_n882# VSUBS 1.65044f
+C4 a_n1789_n882# a_n1914_n882# 15.80642f
+C5 a_n1461_n882# a_n1789_n882# 0.9224f
+C6 a_n1461_n882# 0 3.22369f
+C7 a_n1789_n882# 0 9.46258f
+C8 VSUBS 0 -0.71002f
+C9 a_n1914_n882# 0 2.8806f
+.ends
+
+.subckt temp_diffpair_and_current_source diff_pair_5f8ec16b_0/a_n1329_397# diff_pair_5f8ec16b_0/a_n1359_201#
++ transformed_dc59b6dd_0/a_n1789_n882# transformed_dc59b6dd_0/a_n1914_n882# diff_pair_5f8ec16b_0/a_n1359_n2547#
++ diff_pair_5f8ec16b_0/a_n1454_n2497# diff_pair_5f8ec16b_0/a_n1329_n2497# VSUBS
+Xdiff_pair_5f8ec16b_0 diff_pair_5f8ec16b_0/a_n1329_397# diff_pair_5f8ec16b_0/a_n1359_201#
++ diff_pair_5f8ec16b_0/a_n1359_n2547# diff_pair_5f8ec16b_0/a_n1454_n2497# diff_pair_5f8ec16b_0/a_n1329_n2497#
++ VSUBS diff_pair_5f8ec16b
+Xtransformed_dc59b6dd_0 transformed_dc59b6dd_0/a_n1789_n882# transformed_dc59b6dd_0/a_n1461_n882#
++ transformed_dc59b6dd_0/a_n1914_n882# VSUBS transformed_dc59b6dd
+C0 diff_pair_5f8ec16b_0/a_n1329_n2497# transformed_dc59b6dd_0/a_n1461_n882# 0.02805f
+C1 diff_pair_5f8ec16b_0/a_n1454_n2497# transformed_dc59b6dd_0/a_n1461_n882# 0.02217f
+C2 transformed_dc59b6dd_0/a_n1461_n882# VSUBS 0.01661f
+C3 diff_pair_5f8ec16b_0/a_n1329_n2497# VSUBS 0.15976f
+C4 diff_pair_5f8ec16b_0/a_n1329_397# transformed_dc59b6dd_0/a_n1461_n882# 0.04752f
+C5 diff_pair_5f8ec16b_0/a_n1329_397# VSUBS 0.74227f
+C6 transformed_dc59b6dd_0/a_n1914_n882# diff_pair_5f8ec16b_0/a_n1329_397# 0.01361f
+C7 transformed_dc59b6dd_0/a_n1461_n882# 0 3.22369f
+C8 transformed_dc59b6dd_0/a_n1789_n882# 0 9.46258f
+C9 VSUBS 0 -0.71002f
+C10 transformed_dc59b6dd_0/a_n1914_n882# 0 2.8806f
+C11 diff_pair_5f8ec16b_0/a_n1329_n2497# 0 4.31255f
+C12 diff_pair_5f8ec16b_0/a_n1329_397# 0 4.24373f
+C13 diff_pair_5f8ec16b_0/a_n1454_n2497# 0 8.79718f
+C14 diff_pair_5f8ec16b_0/a_n1359_n2547# 0 7.76928f
+C15 diff_pair_5f8ec16b_0/a_n1359_201# 0 7.63831f
+.ends
+
+.subckt opamp_single_top VSS VDD IB VIN VIP VOUT
+Xshared_gate_components_0 shared_gate_components_0/2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/w_n1299_n1525#
++ shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/w_n1299_n1525#
++ VDD shared_gate_components_0/2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/w_n1299_n1525#
++ shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/w_n1299_n1525#
++ shared_gate_components_0/2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_823_n1050#
++ straight_route_06534d87_0/m1_n802_4335# shared_gate_components_0/multiplier_5999f575_0/a_433_n1050#
++ shared_gate_components_0/c_route_297e2d02_0/m1_2159_n4324# shared_gate_components_0/2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/a_823_n1050#
++ VSUBS shared_gate_components
+Xtemp_diffpair_and_current_source_0 straight_route_06534d87_0/m1_n802_4335# VIP IB
++ VSS VIN temp_diffpair_and_current_source_0/diff_pair_5f8ec16b_0/a_n1454_n2497# straight_route_fc2efb2d_0/m1_716_4335#
++ VSUBS temp_diffpair_and_current_source
+C0 VIP straight_route_06534d87_0/m1_n802_4335# 0.07179f
+C1 shared_gate_components_0/2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/w_n1299_n1525# VDD 0.18433f
+C2 shared_gate_components_0/multiplier_22e959f4_0/w_n246_n1086# shared_gate_components_0/c_route_297e2d02_0/m1_2159_n4324# 0.02275f
+C3 straight_route_06534d87_0/m1_n802_4335# straight_route_fc2efb2d_0/m1_716_4335# 0.26945f
+C4 shared_gate_components_0/multiplier_a07f7352_0/w_n116_n1086# shared_gate_components_0/c_route_297e2d02_0/m1_2159_n4324# 0.03133f
+C5 shared_gate_components_0/multiplier_5999f575_0/w_n116_n1086# shared_gate_components_0/c_route_297e2d02_0/m1_2159_n4324# 0.03133f
+C6 shared_gate_components_0/c_route_297e2d02_0/m1_2159_n4324# straight_route_fc2efb2d_0/m1_716_4335# 0.43998f
+C7 shared_gate_components_0/multiplier_22e959f4_1/w_144_n1086# shared_gate_components_0/c_route_297e2d02_0/m1_2159_n4324# 0.02275f
+C8 VDD straight_route_06534d87_0/m1_n802_4335# 0.04326f
+C9 VDD shared_gate_components_0/c_route_297e2d02_0/m1_2159_n4324# 2.67823f
+C10 shared_gate_components_0/multiplier_22e959f4_0/w_n116_n1086# shared_gate_components_0/c_route_297e2d02_0/m1_2159_n4324# 0.03133f
+C11 shared_gate_components_0/multiplier_22e959f4_1/w_n116_n1086# shared_gate_components_0/c_route_297e2d02_0/m1_2159_n4324# 0.03133f
+C12 temp_diffpair_and_current_source_0/diff_pair_5f8ec16b_0/a_n1454_n2497# straight_route_06534d87_0/m1_n802_4335# 0.06332f
+C13 shared_gate_components_0/multiplier_a07f7352_0/w_14_n1086# shared_gate_components_0/c_route_297e2d02_0/m1_2159_n4324# 0.03133f
+C14 VIN straight_route_06534d87_0/m1_n802_4335# 0.0445f
+C15 shared_gate_components_0/multiplier_22e959f4_0/w_144_n1086# shared_gate_components_0/c_route_297e2d02_0/m1_2159_n4324# 0.02275f
+C16 shared_gate_components_0/multiplier_22e959f4_1/w_n246_n1086# shared_gate_components_0/c_route_297e2d02_0/m1_2159_n4324# 0.02275f
+C17 shared_gate_components_0/c_route_297e2d02_0/m1_2159_n4324# shared_gate_components_0/multiplier_5999f575_0/w_14_n1086# 0.03133f
+C18 shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/w_n1299_n1525# straight_route_fc2efb2d_0/m1_716_4335# 0.04085f
+C19 VIP straight_route_fc2efb2d_0/m1_716_4335# 0.04527f
+C20 shared_gate_components_0/2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/a_823_n1050# straight_route_fc2efb2d_0/m1_716_4335# 0.0201f
+C21 shared_gate_components_0/multiplier_5999f575_0/a_433_n1050# straight_route_fc2efb2d_0/m1_716_4335# 0.06365f
+C22 shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/w_n1299_n1525# straight_route_fc2efb2d_0/m1_716_4335# 0.1701f
+C23 VSS IB 1.11224f
+C24 VDD straight_route_fc2efb2d_0/m1_716_4335# 0.34185f
+C25 shared_gate_components_0/2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/a_823_n1050# VDD 0.26704f
+C26 VIN VIP 0.0847f
+C27 VDD shared_gate_components_0/2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_823_n1050# 0.26704f
+C28 temp_diffpair_and_current_source_0/diff_pair_5f8ec16b_0/a_n1454_n2497# straight_route_fc2efb2d_0/m1_716_4335# 0.06332f
+C29 shared_gate_components_0/c_route_297e2d02_0/m1_2159_n4324# shared_gate_components_0/multiplier_a07f7352_0/w_n246_n1086# 0.02275f
+C30 shared_gate_components_0/multiplier_22e959f4_0/w_14_n1086# shared_gate_components_0/c_route_297e2d02_0/m1_2159_n4324# 0.03133f
+C31 VSS temp_diffpair_and_current_source_0/transformed_dc59b6dd_0/a_n1461_n882# 0.0269f
+C32 shared_gate_components_0/multiplier_a07f7352_0/w_144_n1086# shared_gate_components_0/c_route_297e2d02_0/m1_2159_n4324# 0.02275f
+C33 VOUT straight_route_06534d87_0/m1_n802_4335# 0.47035f
+C34 shared_gate_components_0/multiplier_22e959f4_1/w_14_n1086# shared_gate_components_0/c_route_297e2d02_0/m1_2159_n4324# 0.03133f
+C35 VIN straight_route_fc2efb2d_0/m1_716_4335# 0.0708f
+C36 VDD shared_gate_components_0/2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/w_n1299_n1525# 0.18433f
+C37 shared_gate_components_0/multiplier_5999f575_0/w_n246_n1086# shared_gate_components_0/c_route_297e2d02_0/m1_2159_n4324# 0.02275f
+C38 shared_gate_components_0/c_route_297e2d02_0/m1_2159_n4324# shared_gate_components_0/multiplier_5999f575_0/w_144_n1086# 0.02275f
+C39 shared_gate_components_0/2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/w_n1299_n1525# straight_route_fc2efb2d_0/m1_716_4335# 0.02834f
+C40 VOUT shared_gate_components_0/c_route_297e2d02_0/m1_2159_n4324# 0.08914f
+C41 VIN VSUBS 10.13238f
+C42 temp_diffpair_and_current_source_0/transformed_dc59b6dd_0/a_n1461_n882# VSUBS 3.22369f
+C43 IB VSUBS 10.80239f
+C44 VSS VSUBS 5.70194f
+C45 straight_route_fc2efb2d_0/m1_716_4335# VSUBS 9.0242f
+C46 temp_diffpair_and_current_source_0/diff_pair_5f8ec16b_0/a_n1454_n2497# VSUBS 8.79718f
+C47 VIP VSUBS 9.98066f
+C48 VOUT VSUBS 2.88959f
+C49 shared_gate_components_0/2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/w_n1299_n1525# VSUBS 23.7717f
+C50 shared_gate_components_0/2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_823_n1050# VSUBS 2.56983f
+C51 shared_gate_components_0/2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/w_n1299_n1525# VSUBS 23.7717f
+C52 shared_gate_components_0/2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/a_823_n1050# VSUBS 2.56983f
+C53 straight_route_06534d87_0/m1_n802_4335# VSUBS 14.74658f
+C54 shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/w_n1299_n1525# VSUBS 23.7717f
+C55 shared_gate_components_0/c_route_297e2d02_0/m1_2159_n4324# VSUBS 15.44978f
+C56 shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/w_n1299_n1525# VSUBS 23.7717f
+C57 shared_gate_components_0/multiplier_5999f575_0/a_433_n1050# VSUBS 2.85549f
+C58 shared_gate_components_0/multiplier_a07f7352_0/w_144_n1086# VSUBS 0.66701f $ **FLOATING
+C59 shared_gate_components_0/multiplier_a07f7352_0/w_14_n1086# VSUBS 0.6671f $ **FLOATING
+C60 shared_gate_components_0/multiplier_a07f7352_0/w_n116_n1086# VSUBS 0.66725f $ **FLOATING
+C61 shared_gate_components_0/multiplier_a07f7352_0/w_n246_n1086# VSUBS 0.66793f $ **FLOATING
+C62 shared_gate_components_0/multiplier_a07f7352_0/w_n594_n1086# VSUBS 0.69269f $ **FLOATING
+C63 shared_gate_components_0/multiplier_5999f575_0/w_492_n1086# VSUBS 0.69269f $ **FLOATING
+C64 shared_gate_components_0/multiplier_5999f575_0/w_144_n1086# VSUBS 0.66793f $ **FLOATING
+C65 shared_gate_components_0/multiplier_5999f575_0/w_14_n1086# VSUBS 0.66725f $ **FLOATING
+C66 shared_gate_components_0/multiplier_5999f575_0/w_n116_n1086# VSUBS 0.6671f $ **FLOATING
+C67 shared_gate_components_0/multiplier_5999f575_0/w_n246_n1086# VSUBS 0.66701f $ **FLOATING
+C68 shared_gate_components_0/multiplier_22e959f4_1/w_144_n1086# VSUBS 0.66682f $ **FLOATING
+C69 shared_gate_components_0/multiplier_22e959f4_1/w_14_n1086# VSUBS 0.66682f $ **FLOATING
+C70 shared_gate_components_0/multiplier_22e959f4_1/w_n116_n1086# VSUBS 0.66682f $ **FLOATING
+C71 shared_gate_components_0/multiplier_22e959f4_1/w_n246_n1086# VSUBS 0.66682f $ **FLOATING
+C72 shared_gate_components_0/multiplier_22e959f4_0/w_144_n1086# VSUBS 0.66682f $ **FLOATING
+C73 shared_gate_components_0/multiplier_22e959f4_0/w_14_n1086# VSUBS 0.66682f $ **FLOATING
+C74 shared_gate_components_0/multiplier_22e959f4_0/w_n116_n1086# VSUBS 0.66682f $ **FLOATING
+C75 shared_gate_components_0/multiplier_22e959f4_0/w_n246_n1086# VSUBS 0.66682f $ **FLOATING
+C76 VDD VSUBS 28.84011f
+.ends
+

@@ -1,0 +1,334 @@
+timestamp 1572014192
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use L_route_29d38ea1 L_route_29d38ea1_0 1 0 0 0 1 0
+use straight_route_4eb3a8fa straight_route_4eb3a8fa_0 1 0 0 0 1 0
+use rectangle_579e8838 rectangle_579e8838_0 1 0 0 0 1 -5330
+use rectangle_d3b6b73f rectangle_d3b6b73f_0 1 0 0 0 1 -6010
+use temp_diffpair_and_current_source temp_diffpair_and_current_source_0 1 0 0 0 1 1635
+use straight_route_972f6ce2 straight_route_972f6ce2_0 1 0 0 0 1 0
+use straight_route_fc2efb2d straight_route_fc2efb2d_0 1 0 0 0 1 0
+use straight_route_06534d87 straight_route_06534d87_0 1 0 0 0 1 0
+use rectangle_b8a61d80 rectangle_b8a61d80_0 1 0 -5375 0 1 4950
+use straight_route_c7e956e3 straight_route_c7e956e3_0 1 0 0 0 1 0
+use straight_route_8b03119c straight_route_8b03119c_0 1 0 0 0 1 0
+use L_route_0dee6e7d L_route_0dee6e7d_0 1 0 0 0 1 0
+use straight_route_1d1bc536 straight_route_1d1bc536_0 1 0 0 0 1 0
+use rectangle_b8a61d80$1 rectangle_b8a61d80$1_0 1 0 5375 0 1 4836
+use L_route_9c6e7ec8 L_route_9c6e7ec8_0 1 0 0 0 1 0
+use L_route_bc376514 L_route_bc376514_0 1 0 0 0 1 0
+use straight_route_24f120ce straight_route_24f120ce_0 1 0 0 0 1 0
+use rectangle_579e8838$2 rectangle_579e8838$2_0 1 0 6875 0 1 11665
+use shared_gate_components shared_gate_components_0 1 0 0 0 1 11600
+use rectangle_579e8838$1 rectangle_579e8838$1_0 1 0 0 0 1 16203
+port "VOUT" 6 6375 11665 6375 11665 m3
+port "VIP" 5 4875 4836 4875 4836 m2
+port "VIN" 4 -5875 4950 -5875 4950 m2
+port "IB" 3 -500 -6010 -500 -6010 m2
+port "VDD" 2 -500 16203 -500 16203 m3
+port "VSS" 1 -500 -5330 -500 -5330 m3
+node "VOUT" 0 0 6375 11665 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VIP" 0 0 4875 4836 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VIN" 0 0 -5875 4950 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "IB" 0 0 -500 -6010 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VDD" 0 0 -500 16203 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VSS" 0 0 -500 -5330 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "VSS" "temp_diffpair_and_current_source_0/transformed_dc59b6dd_0/a_n1914_n882#" 3.24695
+cap "IB" "VSS" 2.54011
+cap "VSS" "temp_diffpair_and_current_source_0/transformed_dc59b6dd_0/Unnamed_e4055ac9$1_0/a_n2476_n1533#" 13.2745
+cap "VSS" "temp_diffpair_and_current_source_0/transformed_dc59b6dd_0/a_n1847_n1098#" 4.54552
+cap "VSS" "temp_diffpair_and_current_source_0/transformed_dc59b6dd_0/a_n1789_n882#" 3.24695
+cap "temp_diffpair_and_current_source_0/transformed_dc59b6dd_0/a_n1461_n882#" "VSS" 3.24695
+cap "IB" "VSS" 93.1634
+cap "temp_diffpair_and_current_source_0/transformed_dc59b6dd_0/a_n1586_n882#" "VSS" 3.24695
+cap "IB" "temp_diffpair_and_current_source_0/transformed_dc59b6dd_0/Unnamed_e4055ac9$1_0/a_n2476_n1533#" 0.3929
+cap "temp_diffpair_and_current_source_0/transformed_dc59b6dd_0/a_n1914_n882#" "VSS" 3.24695
+cap "temp_diffpair_and_current_source_0/transformed_dc59b6dd_0/a_n1586_n882#" "VSS" 3.24695
+cap "temp_diffpair_and_current_source_0/transformed_dc59b6dd_0/Unnamed_e4055ac9$1_0/a_n2476_n1533#" "VSS" 49.4599
+cap "temp_diffpair_and_current_source_0/transformed_dc59b6dd_0/a_n1789_n882#" "VSS" 3.24695
+cap "temp_diffpair_and_current_source_0/transformed_dc59b6dd_0/a_n1914_n882#" "VSS" 3.24695
+cap "temp_diffpair_and_current_source_0/transformed_dc59b6dd_0/a_n1789_n882#" "VSS" 3.24695
+cap "temp_diffpair_and_current_source_0/transformed_dc59b6dd_0/a_n1461_n882#" "VSS" 3.24695
+cap "temp_diffpair_and_current_source_0/transformed_dc59b6dd_0/a_n1847_n1098#" "VSS" 15.0054
+cap "VSS" "temp_diffpair_and_current_source_0/transformed_dc59b6dd_0/a_n1586_n882#" 3.24695
+cap "IB" "VSS" 796.862
+cap "temp_diffpair_and_current_source_0/transformed_dc59b6dd_0/a_n1461_n882#" "VSS" 3.24695
+cap "VSS" "temp_diffpair_and_current_source_0/transformed_dc59b6dd_0/a_n1847_n1098#" 7.92276
+cap "temp_diffpair_and_current_source_0/transformed_dc59b6dd_0/a_n1586_n882#" "VSS" 3.24695
+cap "temp_diffpair_and_current_source_0/transformed_dc59b6dd_0/a_n1914_n882#" "VSS" 3.24695
+cap "temp_diffpair_and_current_source_0/transformed_dc59b6dd_0/Unnamed_e4055ac9$1_0/a_n2476_n1533#" "VSS" 20.3139
+cap "IB" "temp_diffpair_and_current_source_0/transformed_dc59b6dd_0/Unnamed_e4055ac9$1_0/a_n2476_n1533#" 1.00408
+cap "VSS" "temp_diffpair_and_current_source_0/transformed_dc59b6dd_0/a_n1789_n882#" 3.24695
+cap "temp_diffpair_and_current_source_0/transformed_dc59b6dd_0/a_n1789_n882#" "VSS" 21.1636
+cap "VSS" "temp_diffpair_and_current_source_0/transformed_dc59b6dd_0/Unnamed_e4055ac9$1_0/a_n2476_n1533#" 314.556
+cap "VSS" "IB" 25.3344
+cap "temp_diffpair_and_current_source_0/transformed_dc59b6dd_0/a_n1461_n882#" "VSS" 9.65558
+cap "temp_diffpair_and_current_source_0/transformed_dc59b6dd_0/a_n1847_n1098#" "VSS" 32.3293
+cap "VSS" "temp_diffpair_and_current_source_0/transformed_dc59b6dd_0/Unnamed_e4055ac9$1_0/a_n2476_n1533#" 135.232
+cap "IB" "temp_diffpair_and_current_source_0/transformed_dc59b6dd_0/Unnamed_e4055ac9$1_0/a_n2476_n1533#" 3.2834
+cap "VSS" "temp_diffpair_and_current_source_0/transformed_dc59b6dd_0/a_n1847_n1098#" 1.91327
+cap "IB" "temp_diffpair_and_current_source_0/transformed_dc59b6dd_0/a_n1847_n1098#" 0.162311
+cap "IB" "VSS" 46.4133
+cap "temp_diffpair_and_current_source_0/transformed_dc59b6dd_0/a_n1461_n882#" "IB" 0.329787
+cap "VSS" "temp_diffpair_and_current_source_0/transformed_dc59b6dd_0/a_n1847_n1098#" 0.956637
+cap "temp_diffpair_and_current_source_0/transformed_dc59b6dd_0/a_n1914_n882#" "IB" 0.329787
+cap "IB" "temp_diffpair_and_current_source_0/transformed_dc59b6dd_0/a_n1847_n1098#" 0.256168
+cap "VSS" "temp_diffpair_and_current_source_0/transformed_dc59b6dd_0/Unnamed_e4055ac9$1_0/a_n2476_n1533#" 55.5419
+cap "IB" "temp_diffpair_and_current_source_0/transformed_dc59b6dd_0/Unnamed_e4055ac9$1_0/a_n2476_n1533#" 206.159
+cap "IB" "VSS" 19.4445
+cap "temp_diffpair_and_current_source_0/transformed_dc59b6dd_0/c_route_22c38b65_0/m2_n2282_421#" "temp_diffpair_and_current_source_0/transformed_dc59b6dd_0/a_n1847_n1098#" 9.49795
+cap "temp_diffpair_and_current_source_0/transformed_dc59b6dd_0/c_route_22c38b65_0/m2_n2282_421#" "temp_diffpair_and_current_source_0/transformed_dc59b6dd_0/a_n1519_n1346#" 5.49907
+cap "temp_diffpair_and_current_source_0/transformed_dc59b6dd_0/c_route_22c38b65_0/m2_n2282_421#" "temp_diffpair_and_current_source_0/transformed_dc59b6dd_0/Unnamed_e4055ac9$1_0/a_n2476_n1533#" 59.9384
+cap "temp_diffpair_and_current_source_0/transformed_dc59b6dd_0/a_n1789_n882#" "temp_diffpair_and_current_source_0/transformed_dc59b6dd_0/c_route_22c38b65_0/m2_n2282_421#" 16.3303
+cap "temp_diffpair_and_current_source_0/transformed_dc59b6dd_0/c_route_22c38b65_0/m2_n2282_421#" "temp_diffpair_and_current_source_0/transformed_dc59b6dd_0/a_n1461_n882#" 7.50608
+cap "temp_diffpair_and_current_source_0/transformed_dc59b6dd_0/Unnamed_e4055ac9$1_0/a_n2476_n1533#" "temp_diffpair_and_current_source_0/transformed_dc59b6dd_0/c_route_22c38b65_0/m2_n2282_421#" 1.95145
+cap "VIN" "temp_diffpair_and_current_source_0/diff_pair_5f8ec16b_0/a_n1359_201#" 1.37673
+cap "temp_diffpair_and_current_source_0/diff_pair_5f8ec16b_0/a_n2146_n3104#" "straight_route_06534d87_0/m1_n802_4335#" 0.690463
+cap "straight_route_06534d87_0/m1_n802_4335#" "temp_diffpair_and_current_source_0/diff_pair_5f8ec16b_0/a_n1359_201#" 2.1422
+cap "straight_route_06534d87_0/m1_n802_4335#" "L_route_0dee6e7d_0/m2_n3077_4750#" 0.0944631
+cap "straight_route_06534d87_0/m1_n802_4335#" "temp_diffpair_and_current_source_0/diff_pair_5f8ec16b_0/a_n1454_n2497#" 0.0250418
+cap "L_route_0dee6e7d_0/m2_n3077_4750#" "temp_diffpair_and_current_source_0/diff_pair_5f8ec16b_0/a_n1359_201#" 8.80613
+cap "straight_route_06534d87_0/m1_n802_4335#" "temp_diffpair_and_current_source_0/diff_pair_5f8ec16b_0/a_n1359_201#" 45.1779
+cap "straight_route_06534d87_0/m1_n802_4335#" "straight_route_fc2efb2d_0/m1_716_4335#" 34.2389
+cap "straight_route_06534d87_0/m1_n802_4335#" "L_route_0dee6e7d_0/m2_n3077_4750#" 17.0154
+cap "straight_route_06534d87_0/m1_n802_4335#" "temp_diffpair_and_current_source_0/diff_pair_5f8ec16b_0/a_n1454_n2497#" 63.2941
+cap "straight_route_06534d87_0/m1_n802_4335#" "temp_diffpair_and_current_source_0/diff_pair_5f8ec16b_0/a_n2146_n3104#" 48.4564
+cap "straight_route_06534d87_0/m1_n802_4335#" "temp_diffpair_and_current_source_0/diff_pair_5f8ec16b_0/a_n1359_201#" 12.2352
+cap "temp_diffpair_and_current_source_0/diff_pair_5f8ec16b_0/a_n1359_201#" "temp_diffpair_and_current_source_0/diff_pair_5f8ec16b_0/a_n2146_n3104#" -1.7053e-13
+cap "straight_route_06534d87_0/m1_n802_4335#" "temp_diffpair_and_current_source_0/diff_pair_5f8ec16b_0/a_n1359_201#" 12.2352
+cap "temp_diffpair_and_current_source_0/diff_pair_5f8ec16b_0/a_n1359_n2547#" "straight_route_fc2efb2d_0/m1_716_4335#" 17.8927
+cap "temp_diffpair_and_current_source_0/diff_pair_5f8ec16b_0/a_n1454_n2497#" "straight_route_fc2efb2d_0/m1_716_4335#" 63.2941
+cap "straight_route_06534d87_0/m1_n802_4335#" "straight_route_fc2efb2d_0/m1_716_4335#" 34.2389
+cap "temp_diffpair_and_current_source_0/diff_pair_5f8ec16b_0/a_n2146_n3104#" "L_route_bc376514_0/m2_2324_4636#" -5.68434e-14
+cap "temp_diffpair_and_current_source_0/diff_pair_5f8ec16b_0/a_n1359_n2547#" "straight_route_fc2efb2d_0/m1_716_4335#" 12.2352
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "L_route_bc376514_0/m2_2324_4636#" 44.5827
+cap "temp_diffpair_and_current_source_0/diff_pair_5f8ec16b_0/a_n2146_n3104#" "straight_route_fc2efb2d_0/m1_716_4335#" 48.4564
+cap "temp_diffpair_and_current_source_0/diff_pair_5f8ec16b_0/a_n1359_n2547#" "straight_route_fc2efb2d_0/m1_716_4335#" 12.2352
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "temp_diffpair_and_current_source_0/diff_pair_5f8ec16b_0/a_n1454_n2497#" 0.0250418
+cap "temp_diffpair_and_current_source_0/diff_pair_5f8ec16b_0/a_n1359_n2547#" "straight_route_24f120ce_0/m2_2927_4686#" 30.529
+cap "temp_diffpair_and_current_source_0/diff_pair_5f8ec16b_0/a_n1359_n2547#" "temp_diffpair_and_current_source_0/diff_pair_5f8ec16b_0/a_n2146_n3104#" 1.42109e-14
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "temp_diffpair_and_current_source_0/diff_pair_5f8ec16b_0/a_n1359_n2547#" 2.23557
+cap "straight_route_24f120ce_0/m2_2927_4686#" "temp_diffpair_and_current_source_0/diff_pair_5f8ec16b_0/a_n2146_n3104#" 2.81404
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "straight_route_24f120ce_0/m2_2927_4686#" 0.0336805
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "temp_diffpair_and_current_source_0/diff_pair_5f8ec16b_0/a_n2146_n3104#" 0.690463
+cap "VIP" "temp_diffpair_and_current_source_0/diff_pair_5f8ec16b_0/a_n1359_n2547#" 1.77859
+cap "temp_diffpair_and_current_source_0/diff_pair_5f8ec16b_0/a_n2146_n3104#" "VIP" 1.76068
+cap "L_route_0dee6e7d_0/m2_n3077_4750#" "shared_gate_components_0/via_stack_c894a9a7_0/m1_n150_n150#" 0.479018
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/via_stack_c894a9a7_0/m1_n150_n150#" 45.3168
+cap "shared_gate_components_0/via_stack_c894a9a7_0/m1_n150_n150#" "L_route_0dee6e7d_0/m2_n3077_4750#" 26.9135
+cap "temp_diffpair_and_current_source_0/diff_pair_5f8ec16b_0/a_n1359_n2547#" "straight_route_fc2efb2d_0/m1_716_4335#" 25.9904
+cap "L_route_bc376514_0/m2_2324_4636#" "straight_route_fc2efb2d_0/m1_716_4335#" 0.509229
+cap "shared_gate_components_0/via_stack_c894a9a7_0/m1_n150_n150#" "straight_route_fc2efb2d_0/m1_716_4335#" 45.3168
+cap "straight_route_24f120ce_0/m2_2927_4686#" "straight_route_fc2efb2d_0/m1_716_4335#" 0.144416
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "temp_diffpair_and_current_source_0/diff_pair_5f8ec16b_0/a_n1359_n2547#" 0.213168
+cap "straight_route_24f120ce_0/m2_2927_4686#" "temp_diffpair_and_current_source_0/diff_pair_5f8ec16b_0/a_n1359_n2547#" 40.5371
+cap "VIP" "temp_diffpair_and_current_source_0/diff_pair_5f8ec16b_0/a_n1359_n2547#" 1.67307
+cap "shared_gate_components_0/via_stack_c894a9a7_0/m1_n150_n150#" "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_n600_n1246#" 1.2603
+cap "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/w_n1299_n1525#" "shared_gate_components_0/via_stack_c894a9a7_0/m1_n150_n150#" 5.23368
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_n695_n1050#" 0.132347
+cap "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "shared_gate_components_0/via_stack_c894a9a7_0/m1_n150_n150#" 10.1484
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/via_stack_c894a9a7_0/m1_n150_n150#" 26.8914
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n570_n1050#" 1.02385
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n570_n1050#" 1.39212
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 6.47307
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n695_n1050#" 2.28223
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n695_n1050#" 3.08016
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_n600_n1246#" 47.7836
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_n695_n1050#" 0.468283
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n570_n1050#" 2.67509
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/w_n1299_n1525#" 8.27965
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n695_n1050#" 7.49745
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/w_n1299_n1525#" 50.8535
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n695_n1050#" 1.6377
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 40.4939
+cap "shared_gate_components_0/via_stack_c894a9a7_0/m1_n150_n150#" "straight_route_fc2efb2d_0/m1_716_4335#" 83.1934
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n570_n1050#" 1.93352
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n695_n1050#" 0.842393
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n570_n1050#" 3.43147
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n695_n1050#" 1.18999
+cap "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "straight_route_fc2efb2d_0/m1_716_4335#" 0.0550291
+cap "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_n695_n1050#" "straight_route_fc2efb2d_0/m1_716_4335#" 0.849938
+cap "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/w_n1299_n1525#" "straight_route_fc2efb2d_0/m1_716_4335#" 20.2283
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/w_n1299_n1525#" 65.0213
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_n600_n1246#" 34.386
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_n695_n1050#" 3.00732
+cap "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n695_n1050#" "straight_route_fc2efb2d_0/m1_716_4335#" 106.155
+cap "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n570_n1050#" "straight_route_fc2efb2d_0/m1_716_4335#" 67.1489
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 99.9889
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_n695_n1050#" 3.30152
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_n570_n1050#" 0.0704234
+cap "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n695_n1050#" "straight_route_fc2efb2d_0/m1_716_4335#" 57.6742
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n600_n1246#" 1.16211
+cap "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n600_n1246#" "straight_route_fc2efb2d_0/m1_716_4335#" 0.897826
+cap "shared_gate_components_0/multiplier_a07f7352_0/w_144_n1086#" "straight_route_fc2efb2d_0/m1_716_4335#" 0.0590721
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/multiplier_a07f7352_0/w_14_n1086#" 0.0530778
+cap "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/w_n1299_n1525#" "straight_route_fc2efb2d_0/m1_716_4335#" 12.347
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/multiplier_22e959f4_0/w_144_n1086#" 0.140327
+cap "shared_gate_components_0/multiplier_5999f575_0/w_144_n1086#" "straight_route_fc2efb2d_0/m1_716_4335#" 0.134221
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_823_n1050#" 1.93509
+cap "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n600_n1246#" "straight_route_fc2efb2d_0/m1_716_4335#" 1.02244
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_n570_n1050#" 0.182535
+cap "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n600_n1246#" "straight_route_fc2efb2d_0/m1_716_4335#" 1.74749
+cap "shared_gate_components_0/multiplier_22e959f4_0/w_n116_n1086#" "straight_route_fc2efb2d_0/m1_716_4335#" 0.129217
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n1043_n1050#" 2.11336
+cap "shared_gate_components_0/multiplier_22e959f4_0/w_14_n1086#" "straight_route_fc2efb2d_0/m1_716_4335#" 0.136088
+cap "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_823_n1050#" "straight_route_fc2efb2d_0/m1_716_4335#" 1.1056
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/multiplier_5999f575_0/w_14_n1086#" 0.139343
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n1043_n1050#" 6.17406
+cap "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n600_n1246#" "straight_route_fc2efb2d_0/m1_716_4335#" 0.694502
+cap "shared_gate_components_0/multiplier_a07f7352_0/a_n210_n1246#" "straight_route_fc2efb2d_0/m1_716_4335#" 42.4845
+cap "shared_gate_components_0/multiplier_5999f575_0/w_n116_n1086#" "straight_route_fc2efb2d_0/m1_716_4335#" 0.21997
+cap "shared_gate_components_0/multiplier_22e959f4_1/w_14_n1086#" "straight_route_fc2efb2d_0/m1_716_4335#" 0.0848017
+cap "shared_gate_components_0/multiplier_22e959f4_0/w_n246_n1086#" "straight_route_fc2efb2d_0/m1_716_4335#" 0.120501
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/w_n1299_n1525#" 54.2245
+cap "shared_gate_components_0/multiplier_5999f575_0/w_n246_n1086#" "straight_route_fc2efb2d_0/m1_716_4335#" 0.30312
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/multiplier_22e959f4_1/w_n116_n1086#" 0.0760974
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_n695_n1050#" 50.9589
+cap "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_823_n1050#" "straight_route_fc2efb2d_0/m1_716_4335#" 0.694502
+cap "shared_gate_components_0/multiplier_22e959f4_1/w_144_n1086#" "straight_route_fc2efb2d_0/m1_716_4335#" 0.0942261
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n570_n1050#" 108.054
+cap "shared_gate_components_0/multiplier_5999f575_0/w_492_n1086#" "straight_route_fc2efb2d_0/m1_716_4335#" 0.0523841
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/a_823_n1050#" 2.20141
+cap "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n1043_n1050#" "straight_route_fc2efb2d_0/m1_716_4335#" 13.7066
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n600_n1246#" 1.3138
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n600_n1246#" 1.47061
+cap "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n600_n1246#" "straight_route_fc2efb2d_0/m1_716_4335#" 1.62069
+cap "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n600_n1246#" "straight_route_fc2efb2d_0/m1_716_4335#" 2.00732
+cap "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_c7711c86_0/a_n600_n1246#" "straight_route_fc2efb2d_0/m1_716_4335#" 0.788803
+cap "shared_gate_components_0/multiplier_22e959f4_1/w_n246_n1086#" "straight_route_fc2efb2d_0/m1_716_4335#" 0.068216
+cap "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "straight_route_fc2efb2d_0/m1_716_4335#" 27.1173
+cap "shared_gate_components_0/multiplier_22e959f4_1/a_n305_n1050#" "straight_route_fc2efb2d_0/m1_716_4335#" 1.19209
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/multiplier_5999f575_0/w_492_n1086#" 0.0419073
+cap "shared_gate_components_0/multiplier_22e959f4_0/w_n246_n1086#" "straight_route_fc2efb2d_0/m1_716_4335#" 0.0964008
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/multiplier_5999f575_0/w_n116_n1086#" 0.175976
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/multiplier_22e959f4_0/w_n116_n1086#" 0.103373
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/multiplier_22e959f4_1/w_n246_n1086#" 0.0545728
+cap "shared_gate_components_0/multiplier_a07f7352_0/a_n210_n1246#" "straight_route_fc2efb2d_0/m1_716_4335#" 57.0549
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/multiplier_5999f575_0/w_14_n1086#" 0.111474
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/multiplier_a07f7352_0/w_144_n1086#" 0.0472577
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/multiplier_5999f575_0/w_n246_n1086#" 0.242496
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/2_multiplier_shared_gate_comps_0/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 186.06
+cap "shared_gate_components_0/multiplier_a07f7352_0/w_14_n1086#" "straight_route_fc2efb2d_0/m1_716_4335#" 0.0424622
+cap "shared_gate_components_0/multiplier_22e959f4_1/w_144_n1086#" "straight_route_fc2efb2d_0/m1_716_4335#" 0.0753809
+cap "shared_gate_components_0/multiplier_5999f575_0/w_144_n1086#" "straight_route_fc2efb2d_0/m1_716_4335#" 0.107377
+cap "shared_gate_components_0/multiplier_22e959f4_1/w_14_n1086#" "straight_route_fc2efb2d_0/m1_716_4335#" 0.0678414
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/via_stack_daa6e7a5_0/m1_n43_n43#" 129.788
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/multiplier_22e959f4_0/w_144_n1086#" 0.112261
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/multiplier_22e959f4_0/w_14_n1086#" 0.108871
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/multiplier_22e959f4_1/w_n116_n1086#" 0.0608779
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/multiplier_22e959f4_1/a_n305_n1050#" 0.0715801
+cap "shared_gate_components_0/straight_route_ce1305f3_0/m1_2238_n1999#" "VOUT" 35.9996
+cap "shared_gate_components_0/c_route_74ab7015_0/m1_n480_n1491#" "VOUT" 235.918
+cap "shared_gate_components_0/c_route_90a1c5ed_0/m1_n609_n4608#" "VOUT" 347.641
+cap "shared_gate_components_0/2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "shared_gate_components_0/via_stack_daa6e7a5_0/m1_n43_n43#" 1.55712
+cap "shared_gate_components_0/2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n600_n1246#" "shared_gate_components_0/via_stack_daa6e7a5_0/m1_n43_n43#" -3.67134
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/multiplier_5999f575_0/w_144_n1086#" 0.240374
+cap "shared_gate_components_0/multiplier_5999f575_0/w_492_n1086#" "straight_route_fc2efb2d_0/m1_716_4335#" 0.387591
+cap "shared_gate_components_0/2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/w_n1299_n1525#" "straight_route_fc2efb2d_0/m1_716_4335#" 28.3425
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/multiplier_5999f575_0/w_n246_n1086#" 0.511998
+cap "shared_gate_components_0/multiplier_22e959f4_0/w_n116_n1086#" "straight_route_fc2efb2d_0/m1_716_4335#" 0.227637
+cap "shared_gate_components_0/multiplier_22e959f4_1/w_n116_n1086#" "straight_route_fc2efb2d_0/m1_716_4335#" 0.111918
+cap "shared_gate_components_0/via_stack_daa6e7a5_0/m1_n43_n43#" "shared_gate_components_0/2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/w_n1299_n1525#" 8.55606
+cap "shared_gate_components_0/multiplier_a07f7352_0/a_n653_n1050#" "straight_route_fc2efb2d_0/m1_716_4335#" 378.516
+cap "shared_gate_components_0/multiplier_a07f7352_0/w_14_n1086#" "straight_route_fc2efb2d_0/m1_716_4335#" 0.0731477
+cap "shared_gate_components_0/via_stack_daa6e7a5_0/m1_n43_n43#" "straight_route_fc2efb2d_0/m1_716_4335#" 212.067
+cap "shared_gate_components_0/via_stack_daa6e7a5_0/m1_n43_n43#" "shared_gate_components_0/2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 11.987
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/multiplier_22e959f4_0/w_n246_n1086#" 0.205789
+cap "shared_gate_components_0/multiplier_5999f575_0/w_n116_n1086#" "straight_route_fc2efb2d_0/m1_716_4335#" 0.30492
+cap "shared_gate_components_0/multiplier_5999f575_0/w_14_n1086#" "straight_route_fc2efb2d_0/m1_716_4335#" 0.252672
+cap "shared_gate_components_0/multiplier_22e959f4_0/w_144_n1086#" "straight_route_fc2efb2d_0/m1_716_4335#" 0.254608
+cap "shared_gate_components_0/2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/w_n1299_n1525#" "shared_gate_components_0/via_stack_daa6e7a5_0/m1_n43_n43#" 8.55606
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/multiplier_22e959f4_1/w_n246_n1086#" 0.0980266
+cap "shared_gate_components_0/multiplier_22e959f4_1/w_14_n1086#" "straight_route_fc2efb2d_0/m1_716_4335#" 0.128109
+cap "shared_gate_components_0/2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/a_n695_n1050#" "straight_route_fc2efb2d_0/m1_716_4335#" 1.56696
+cap "shared_gate_components_0/multiplier_22e959f4_0/w_14_n1086#" "straight_route_fc2efb2d_0/m1_716_4335#" 0.245043
+cap "shared_gate_components_0/multiplier_a07f7352_0/a_n653_n1050#" "shared_gate_components_0/via_stack_daa6e7a5_0/m1_n43_n43#" 0.597348
+cap "shared_gate_components_0/2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n600_n1246#" "straight_route_fc2efb2d_0/m1_716_4335#" 3.43317
+cap "shared_gate_components_0/multiplier_a07f7352_0/a_n210_n1246#" "straight_route_fc2efb2d_0/m1_716_4335#" 61.7496
+cap "shared_gate_components_0/via_stack_daa6e7a5_0/m1_n43_n43#" "shared_gate_components_0/2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 10.4299
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/multiplier_a07f7352_0/w_n116_n1086#" 0.0164999
+cap "shared_gate_components_0/multiplier_22e959f4_1/w_144_n1086#" "straight_route_fc2efb2d_0/m1_716_4335#" 0.146756
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 20.0776
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/multiplier_a07f7352_0/w_144_n1086#" 0.082735
+cap "shared_gate_components_0/c_route_90a1c5ed_0/m1_n609_n4608#" "VOUT" 122.713
+cap "shared_gate_components_0/straight_route_268614ec_0/m1_1140_n1290#" "VOUT" 53.1423
+cap "shared_gate_components_0/c_route_74ab7015_0/m1_n480_n1491#" "VOUT" 248.099
+cap "VDD" "shared_gate_components_0/2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n695_n1050#" 9.33959
+cap "VDD" "shared_gate_components_0/2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 28.5494
+cap "VDD" "shared_gate_components_0/2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n600_n1246#" 0.0590587
+cap "shared_gate_components_0/2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/w_n1299_n1525#" "VDD" 65.6002
+cap "VDD" "shared_gate_components_0/2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n570_n1050#" 14.4765
+cap "VDD" "shared_gate_components_0/2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n695_n1050#" 20.0958
+cap "VDD" "shared_gate_components_0/2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 101.347
+cap "shared_gate_components_0/2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/w_n1299_n1525#" "VDD" 65.6002
+cap "straight_route_fc2efb2d_0/m1_716_4335#" "shared_gate_components_0/2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 0.0269364
+cap "shared_gate_components_0/2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "VDD" 72.7971
+cap "VDD" "shared_gate_components_0/2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/a_n695_n1050#" 29.4354
+cap "shared_gate_components_0/2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/a_n570_n1050#" "VDD" 14.4765
+cap "VDD" "shared_gate_components_0/2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n600_n1246#" 155.468
+cap "shared_gate_components_0/2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/w_n1299_n1525#" "VDD" 40.5072
+cap "shared_gate_components_0/2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "VDD" 67.8078
+cap "shared_gate_components_0/2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n570_n1050#" "VDD" 14.0083
+cap "shared_gate_components_0/2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n695_n1050#" "VDD" 10.1487
+cap "shared_gate_components_0/2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n695_n1050#" "VDD" 24.0917
+cap "shared_gate_components_0/2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n600_n1246#" "VDD" 43.6719
+cap "shared_gate_components_0/2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "VDD" 63.6928
+cap "shared_gate_components_0/2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/w_n1299_n1525#" "VDD" 55.1664
+cap "shared_gate_components_0/2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/w_n1299_n1525#" "VDD" 95.6736
+cap "shared_gate_components_0/2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "VDD" 131.501
+cap "shared_gate_components_0/2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/a_n570_n1050#" "VDD" 28.7853
+cap "shared_gate_components_0/2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/a_n570_n1050#" "VDD" 14.7771
+cap "shared_gate_components_0/2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/a_n695_n1050#" "VDD" 34.2404
+cap "VDD" "shared_gate_components_0/2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/w_n1299_n1525#" 13.9773
+cap "shared_gate_components_0/2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" "VDD" 22.2017
+cap "VDD" "shared_gate_components_0/2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/Unnamed_eb5a558c$1_0/a_n1237_n1463#" 22.2017
+cap "shared_gate_components_0/2_multiplier_shared_gate_comps_1/Unnamed_c7711c86_0/w_n1299_n1525#" "VDD" 14.5015
+cap "shared_gate_components_0/2_multiplier_shared_gate_comps_1/Unnamed_922c7248_0/w_n1299_n1525#" "VDD" 0.524179
+merge "rectangle_579e8838$1_0/VSUBS" "straight_route_972f6ce2_0/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "straight_route_972f6ce2_0/VSUBS" "rectangle_579e8838$2_0/VSUBS"
+merge "rectangle_579e8838$2_0/VSUBS" "L_route_9c6e7ec8_0/VSUBS"
+merge "L_route_9c6e7ec8_0/VSUBS" "shared_gate_components_0/VSUBS"
+merge "shared_gate_components_0/VSUBS" "rectangle_b8a61d80$1_0/VSUBS"
+merge "rectangle_b8a61d80$1_0/VSUBS" "straight_route_24f120ce_0/VSUBS"
+merge "straight_route_24f120ce_0/VSUBS" "straight_route_1d1bc536_0/VSUBS"
+merge "straight_route_1d1bc536_0/VSUBS" "L_route_bc376514_0/VSUBS"
+merge "L_route_bc376514_0/VSUBS" "straight_route_fc2efb2d_0/VSUBS"
+merge "straight_route_fc2efb2d_0/VSUBS" "straight_route_06534d87_0/VSUBS"
+merge "straight_route_06534d87_0/VSUBS" "L_route_0dee6e7d_0/VSUBS"
+merge "L_route_0dee6e7d_0/VSUBS" "straight_route_8b03119c_0/VSUBS"
+merge "straight_route_8b03119c_0/VSUBS" "straight_route_c7e956e3_0/VSUBS"
+merge "straight_route_c7e956e3_0/VSUBS" "rectangle_b8a61d80_0/VSUBS"
+merge "rectangle_b8a61d80_0/VSUBS" "rectangle_d3b6b73f_0/VSUBS"
+merge "rectangle_d3b6b73f_0/VSUBS" "rectangle_579e8838_0/VSUBS"
+merge "rectangle_579e8838_0/VSUBS" "straight_route_4eb3a8fa_0/VSUBS"
+merge "straight_route_4eb3a8fa_0/VSUBS" "temp_diffpair_and_current_source_0/VSUBS"
+merge "temp_diffpair_and_current_source_0/VSUBS" "L_route_29d38ea1_0/VSUBS"
+merge "L_route_29d38ea1_0/VSUBS" "VSUBS"
+merge "rectangle_579e8838$1_0/compass_layer70__20_size5__3$1_0/m3_n500_n300#" "VDD" -1156 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1200 0 0 0 0 0 0
+merge "VDD" "shared_gate_components_0/via_stack_daa6e7a5_0/m1_n43_n43#"
+merge "shared_gate_components_0/via_stack_daa6e7a5_0/m1_n43_n43#" "straight_route_972f6ce2_0/m3_n150_13030#"
+merge "L_route_0dee6e7d_0/m2_n3077_4750#" "temp_diffpair_and_current_source_0/diff_pair_5f8ec16b_0/a_n1359_n2547#" -802.507 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -59060 -2252 -45000 -900 0 0 0 0 0 0
+merge "temp_diffpair_and_current_source_0/diff_pair_5f8ec16b_0/a_n1359_n2547#" "straight_route_8b03119c_0/m2_n3227_4800#"
+merge "straight_route_8b03119c_0/m2_n3227_4800#" "straight_route_c7e956e3_0/m2_n4875_4750#"
+merge "straight_route_c7e956e3_0/m2_n4875_4750#" "rectangle_b8a61d80_0/compass_layer69__20_size5__2_0/m2_n500_n200#"
+merge "rectangle_b8a61d80_0/compass_layer69__20_size5__2_0/m2_n500_n200#" "VIN"
+merge "rectangle_579e8838$2_0/compass_layer70__20_size5__3$2_0/m3_n500_n300#" "L_route_9c6e7ec8_0/m3_3998_11365#" -1004.64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -600000 -3200 0 0 0 0 0 0
+merge "L_route_9c6e7ec8_0/m3_3998_11365#" "VOUT"
+merge "temp_diffpair_and_current_source_0/transformed_dc59b6dd_0/c_route_22c38b65_0/m2_n2282_421#" "rectangle_579e8838_0/compass_layer70__20_size5__3_0/m3_n500_n300#" -909.883 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1544 0 0 0 0 0 0
+merge "rectangle_579e8838_0/compass_layer70__20_size5__3_0/m3_n500_n300#" "L_route_29d38ea1_0/m3_n2218_n5630#"
+merge "L_route_29d38ea1_0/m3_n2218_n5630#" "VSS"
+merge "shared_gate_components_0/via_stack_c894a9a7_0/m1_n150_n150#" "straight_route_06534d87_0/m1_n802_4335#" -636.32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3698 -258 0 0 0 0 0 -136 0 0 0 0
+merge "straight_route_06534d87_0/m1_n802_4335#" "temp_diffpair_and_current_source_0/diff_pair_5f8ec16b_0/a_n1329_397#"
+merge "straight_route_fc2efb2d_0/m1_716_4335#" "temp_diffpair_and_current_source_0/diff_pair_5f8ec16b_0/a_n1329_n2497#" -519.866 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3698 -258 0 0 0 0 0 0 0 0 0 0
+merge "rectangle_b8a61d80$1_0/compass_layer69__20_size5__2$1_0/m2_n500_n200#" "straight_route_24f120ce_0/m2_2927_4686#" -1370.69 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -459060 -4252 -45000 -900 0 0 0 0 0 0
+merge "straight_route_24f120ce_0/m2_2927_4686#" "VIP"
+merge "VIP" "straight_route_1d1bc536_0/m2_3647_4686#"
+merge "straight_route_1d1bc536_0/m2_3647_4686#" "L_route_bc376514_0/m2_2324_4636#"
+merge "L_route_bc376514_0/m2_2324_4636#" "temp_diffpair_and_current_source_0/diff_pair_5f8ec16b_0/a_n1359_201#"
+merge "temp_diffpair_and_current_source_0/transformed_dc59b6dd_0/a_n1519_n1346#" "rectangle_d3b6b73f_0/compass_layer69__20_size5__3_0/m2_n500_n300#" -282.494 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -800 0 0 0 0 0 0 0 0
+merge "rectangle_d3b6b73f_0/compass_layer69__20_size5__3_0/m2_n500_n300#" "IB"
+merge "IB" "straight_route_4eb3a8fa_0/m2_n100_n5710#"
